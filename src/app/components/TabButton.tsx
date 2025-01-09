@@ -1,15 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { TabButtonProps } from '@/types'
 
 const variants = {
   default: { width: 0 },
   active: { width: 'calc(100% - 0.75rem)' },
-}
-
-interface TabButtonProps {
-  active: boolean
-  selectTab: () => void
-  children: React.ReactNode
 }
 
 const TabButton: React.FC<TabButtonProps> = ({

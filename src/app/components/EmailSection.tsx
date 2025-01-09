@@ -5,14 +5,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import emailSend from '@/app/utils/email'
 import Swal from 'sweetalert2'
+import { FormData } from '@/types'
 
 const EmailSection = () => {
-  interface FormData {
-    email: string
-    subject: string
-    message: string
-  }
-
   const handleSubmit = async (
     e: React.FormEvent<HTMLFormElement>,
   ): Promise<void> => {

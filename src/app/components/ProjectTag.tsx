@@ -1,8 +1,4 @@
-interface ProjectTagProps {
-  name: string
-  onClick: (name: string) => void
-  isSelected: boolean
-}
+import { ProjectTagProps } from '@/types'
 
 const ProjectTag: React.FC<ProjectTagProps> = ({
   name,

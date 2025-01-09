@@ -5,21 +5,7 @@ import NavLink from './NavLink'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
 import MenuOverlay from './MenuOverlay'
 import Image from 'next/image'
-
-const navLinks = [
-  {
-    title: 'About',
-    path: '#about',
-  },
-  {
-    title: 'Projects',
-    path: '#projects',
-  },
-  {
-    title: 'Contact',
-    path: '#contact',
-  },
-]
+import { navLinks } from '@/config/navLinks'
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)

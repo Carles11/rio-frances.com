@@ -1,6 +1,6 @@
 'use client'
-import React from 'react'
 import dynamic from 'next/dynamic'
+import { achievementsList } from '@/config/achievementsList'
 
 const AnimatedNumbers = dynamic(
   () => {
@@ -9,24 +9,6 @@ const AnimatedNumbers = dynamic(
   { ssr: false },
 )
 
-const achievementsList = [
-  {
-    metric: 'Projects',
-    value: '10',
-    postfix: '+',
-  },
-  {
-    prefix: '~',
-    metric: 'Users',
-    value: '10,000',
-  },
-
-  {
-    metric: 'Years',
-    value: '5+',
-  },
-]
-
 const AchievementsSection = () => {
   return (
     <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
@@ -34,14 +16,14 @@ const AchievementsSection = () => {
         {achievementsList.map((achievement, index) => {
           return (
             <div
-              key={index}
+              key={`${achievement}_${index}`}
               className="flex flex-col items-center justify-center mx-4 my-4 sm:my-0"
             >
               <h2 className="text-white text-4xl font-bold flex flex-row">
                 {achievement.prefix}
                 <AnimatedNumbers
                   includeComma
-                  animateToNumber={parseInt(achievement.value)}
+                  animateToNumber={achievement.value}
                   locale="en-US"
                   className="text-white text-4xl font-bold"
                 />

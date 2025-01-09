@@ -1,13 +1,6 @@
 import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
-
-interface ProjectCardProps {
-  imgUrl: string
-  title: string
-  description: string
-  gitUrl: string
-  previewUrl: string
-}
+import { ProjectCardProps } from '@/types'
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
   imgUrl,
