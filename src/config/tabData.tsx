@@ -6,12 +6,10 @@ export const TAB_DATA: TabData[] = [
     id: 'skills',
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>JavaScript and TypeScript</li>
-        <li>NextJS</li>
-        <li>React</li>
-        <li>React Native with Expo</li>
-        <li>Supabase</li>
+        <li>• Node.js</li>
+        <li>• JavaScript, TypeScript</li>
+        <li>• React, NextJS, React-Native with expo</li>
+        <li>• Supabase, mongoDB</li>
       </ul>
     ),
   },
@@ -20,8 +18,30 @@ export const TAB_DATA: TabData[] = [
     id: 'education',
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Javascript developer</li>
-        <li>@BARCELONA CODESCHOOL</li>
+        <li>
+          • Full-Stack JavaScript Developer:{' '}
+          <a
+            href="https://www.barcelonacodeschool.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:underline hover:text-blue-400"
+          >
+            {' '}
+            @BARCELONA-CODESCHOOL
+          </a>
+        </li>
+        <li>
+          • Advanced programming with JavaScript and ECMAScript:{' '}
+          <a
+            href="https://www.campusmvp.es"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:underline hove:text-blue-400"
+          >
+            {' '}
+            @Campus-MVP online school
+          </a>
+        </li>
       </ul>
     ),
   },
@@ -30,8 +50,70 @@ export const TAB_DATA: TabData[] = [
     id: 'certifications',
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>
+          <a
+            href="https://drive.google.com/file/d/1mkz53P0CT9hSnLGQ9YlclDcxe1KH1e3o/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:underline hover:text-blue-400"
+          >
+            • Full-Stack JavaScript Developer
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.campusmvp.es/certificados/carlos-del-rio-frances"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:underline hover:text-blue-400"
+          >
+            • Advanced programming with JavaScript and ECMAScript
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://university.atlassian.com/student/award/MHMuAWCmDU6kLmPwDyBYge75"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:underline hover:text-blue-400"
+          >
+            • Jira (Atlassian)
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://university.atlassian.com/student/award/DV7LGD4bsZ5K83ehwetb3jTp"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:underline hover:text-blue-400"
+          >
+            • Confluence (Atlassian)
+          </a>
+        </li>
+      </ul>
+    ),
+  },
+  {
+    title: 'Languages',
+    id: 'languages',
+    content: (
+      <ul className="list-disc pl-2">
+        <li>• Spanish (Native)</li>
+        <li>• Catalan (Native)</li>
+        <li>
+          <a
+            href="https://drive.google.com/file/d/11GEuB08Feu198P2-xyUn-CDxLq_q73wj/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:underline hover:text-blue-400"
+          >
+            • German C1 (Goethe Institut - KDS)
+          </a>
+        </li>
+        <li>• English C1 CEFR</li>
+        <li>• French B2 CEFR</li>
+        <li>• Italian C1 CEFR</li>
+        <li>• Portuguese A2 CEFR</li>
       </ul>
     ),
   },
