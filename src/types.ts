@@ -21,6 +21,7 @@ export interface NavLinkProps {
 }
 
 export interface ProjectCardProps {
+  ident: number
   imgUrl: string
   title: string
   description: string
