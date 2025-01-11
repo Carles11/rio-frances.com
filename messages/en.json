@@ -76,11 +76,14 @@
     }
   },
   "ContactSection": {
-    "title": "Contact",
-    "name": "Name",
-    "email": "Email",
+    "title": "Let's connect",
+    "subject": "Subject",
     "message": "Message",
-    "send": "Send"
+    "send": "Send",
+    "description": "I'm currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+    "subjectPlaceholder": "Enter a subject",
+    "messagePlaceholder": "Enter your message",
+    "emailPlaceholder": "Enter your email"
   },
   "TabData": {
     "skills": {
@@ -105,13 +108,28 @@
     },
     "languages": {
       "title": "Languages",
-      "spanish": "Spanish",
-      "catalan": "Catalan",
-      "german": "German",
-      "english": "English",
-      "french": "French",
-      "italian": "Italian",
-      "portuguese": "Portuguese"
+      "spanish": "Spanish (Native)",
+      "catalan": "Catalan (Native)",
+      "german": "German, C1 (KDS)",
+      "english": "English, C1",
+      "french": "French, B1",
+      "italian": "Italian, B2",
+      "portuguese": "Portuguese, A1"
     }
+  },
+  "ToastMessages": {
+    "closeButton": "Close",
+    "confirmButton": "Ok",
+    "errorMessage": "An error occurred. Please try again later.",
+    "errorTitle": "Error",
+    "successMessage": "Operation completed successfully.",
+    "successTitle": "Success",
+    "infoMessage": "Please note the following information.",
+    "infoTitle": "Information",
+    "warningMessage": "Please be cautious about the following warning.",
+    "warningTitle": "Warning",
+    "privateRepoMessage": "This repository is private. {title}",
+    "retryErrorMessage": "Please try again: (error ${error.status}, ${error.text})",
+    "emailSentMessage": "{result.text} Your email has been sent successfully."
   }
 }

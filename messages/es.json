@@ -76,11 +76,15 @@
     }
   },
   "ContactSection": {
-    "title": "Contacto",
-    "name": "Nombre",
+    "title": "Conectemos",
     "email": "Correo electrónico",
+    "subject": "Asunto",
     "message": "Mensaje",
-    "send": "Enviar"
+    "send": "Enviar",
+    "description": "Actualmente estoy buscando nuevas oportunidades, mi bandeja de entrada siempre está abierta. Ya sea que tengas una pregunta o solo quieras saludar, ¡haré mi mejor esfuerzo para responderte!",
+    "subjectPlaceholder": "Introduce el asunto de tu mensaje",
+    "emailPlaceholder": "Introduce tu correo electrónico",
+    "messagePlaceholder": "Introduce tu mensaje"
   },
   "TabData": {
     "skills": {
@@ -105,13 +109,28 @@
     },
     "languages": {
       "title": "Idiomas",
-      "spanish": "Español",
-      "catalan": "Catalán",
-      "german": "Alemán",
-      "english": "Inglés",
-      "french": "Francés",
-      "italian": "Italiano",
-      "portuguese": "Portugués"
+      "spanish": "Español (Nativo)",
+      "catalan": "Catalán (Nativo)",
+      "german": "Alemán, C1 (KDS)",
+      "english": "Inglés, C1",
+      "french": "Francés, B1",
+      "italian": "Italiano, B2",
+      "portuguese": "Portugués, A1"
     }
+  },
+  "ToastMessages": {
+    "closeButton": "Cerrar",
+    "confirmButton": "Aceptar",
+    "errorMessage": "Ocurrió un error. Por favor, inténtelo de nuevo más tarde.",
+    "errorTitle": "Error",
+    "successMessage": "Operación completada con éxito.",
+    "successTitle": "Éxito",
+    "infoMessage": "Por favor, tenga en cuenta la siguiente información.",
+    "infoTitle": "Información",
+    "warningMessage": "Por favor, tenga cuidado con la siguiente advertencia.",
+    "warningTitle": "Advertencia",
+    "privateRepoMessage": "Este repositorio es privado. {title}",
+    "retryErrorMessage": "Por favor, inténtelo de nuevo: (error ${error.status}, ${error.text})",
+    "emailSentMessage": "{result.text} Su correo electrónico ha sido enviado con éxito."
   }
 }

@@ -36,7 +36,6 @@
     "web": "Web",
     "mobile": "Mobil"
   },
-
   "Projects": {
     "webDevelopmentPortfolioWebsite": {
       "title": "Webentwicklungs-Portfolio-Website",
@@ -76,11 +75,15 @@
     }
   },
   "ContactSection": {
-    "title": "Kontakt",
-    "name": "Name",
+    "title": "Lass uns in Kontakt treten",
     "email": "E-Mail",
+    "subject": "Betreff",
     "message": "Nachricht",
-    "send": "Senden"
+    "send": "Senden",
+    "description": "Ich bin derzeit auf der Suche nach neuen Möglichkeiten, mein Posteingang ist immer offen. Egal, ob du eine Frage hast oder einfach nur Hallo sagen möchtest, ich werde mein Bestes tun, um dir zu antworten!",
+    "subjectPlaceholder": "Gib einen Betreff ein",
+    "emailPlaceholder": "Gib deine E-Mail ein",
+    "messagePlaceholder": "Gib deine Nachricht ein"
   },
   "TabData": {
     "skills": {
@@ -105,13 +108,28 @@
     },
     "languages": {
       "title": "Sprachen",
-      "spanish": "Spanisch",
-      "catalan": "Katalanisch",
-      "german": "Deutsch",
-      "english": "Englisch",
-      "french": "Französisch",
-      "italian": "Italienisch",
-      "portuguese": "Portugiesisch"
+      "spanish": "Spanisch (Muttersprache)",
+      "catalan": "Katalanisch (Muttersprache)",
+      "german": "Deutsch, C1 (KDS)",
+      "english": "Englisch, C1",
+      "french": "Französisch, B1",
+      "italian": "Italienisch, B2",
+      "portuguese": "Portugiesisch, A1"
     }
+  },
+  "ToastMessages": {
+    "closeButton": "Schließen",
+    "confirmButton": "Ok",
+    "errorMessage": "Ein Fehler ist aufgetreten. Bitte versuche es später noch einmal.",
+    "errorTitle": "Fehler",
+    "successMessage": "Vorgang erfolgreich abgeschlossen.",
+    "successTitle": "Erfolg",
+    "infoMessage": "Bitte beachte die folgende Information.",
+    "infoTitle": "Information",
+    "warningMessage": "Bitte sei vorsichtig bei der folgenden Warnung.",
+    "warningTitle": "Warnung",
+    "privateRepoMessage": "Dieses Repository ist privat. {title}",
+    "retryErrorMessage": "Bitte versuche es erneut: (Fehler ${error.status}, ${error.text})",
+    "emailSentMessage": "{result.text} Deine E-Mail wurde erfolgreich gesendet."
   }
 }

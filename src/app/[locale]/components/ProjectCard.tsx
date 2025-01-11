@@ -2,6 +2,7 @@ import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import { ProjectCardProps } from '@/types'
 import Swal from 'sweetalert2'
+import { useTranslations } from 'next-intl'
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
   ident,
@@ -11,6 +12,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   gitUrl,
   previewUrl,
 }) => {
+  const tToast = useTranslations('ToastMessages')
+
   return (
     <div>
       <div
@@ -23,9 +26,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               onClick={() => {
                 Swal.fire({
                   icon: 'info',
-                  title: 'Private Repository',
-                  text: `Sorry, ${title} is a private repository I am not allowed to share.`,
-                  confirmButtonText: 'OK',
+                  title: tToast('infoTitle'),
+                  text: tToast('privateRepoMessage', { title }),
+                  confirmButtonText: tToast('confirmButton'),
                 })
               }}
               className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white flex items-center justify-center cursor-pointer"
@@ -57,3 +60,4 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }
 
 export default ProjectCard
+// Remove the incorrect function implementation
