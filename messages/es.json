@@ -1,6 +1,117 @@
 {
   "MainPage": {
-    "title": "Hola mundo",
-    "about": "Amos ke nos amos"
+    "title": "Bienvenido a mi portafolio"
+  },
+  "AchievementsSection": {
+    "projects": "Proyectos",
+    "users": "Usuarios",
+    "years": "Años de experiencia"
+  },
+  "HeroSection": {
+    "greeting": "Hola, soy",
+    "greeting-slide-1": "un desarrollador web",
+    "greeting-slide-2": "un desarrollador de aplicaciones móviles",
+    "greeting-slide-3": "también un diseñador UI/UX",
+    "description": "Pongámonos en contacto. Estoy disponible para oportunidades de freelance, tiempo completo, medio tiempo, contrato y consultoría.",
+    "hireMe": "Contrátame",
+    "downloadCV": "Descargar CV"
+  },
+  "Navbar": {
+    "title": "Mi Portafolio",
+    "about": "Sobre mi",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "AboutSection": {
+    "title": "Sobre mí",
+    "description": "Soy un desarrollador web full stack con una pasión por crear aplicaciones web interactivas y responsivas. Tengo experiencia trabajando con JavaScript, React, Redux, Node.js, Express, PostgreSQL, Sequelize, HTML, CSS y Git. Soy un aprendiz rápido y siempre estoy buscando expandir mi conocimiento y conjunto de habilidades. Soy un jugador de equipo y estoy emocionado de trabajar con otros para crear aplicaciones increíbles.",
+    "skills": "Habilidades",
+    "education": "Formación",
+    "certifications": "Certificaciones",
+    "languages": "Idiomas"
+  },
+  "ProjectsSection": {
+    "title": "Proyectos",
+    "all": "Todos",
+    "web": "Web",
+    "mobile": "Móvil"
+  },
+
+  "Projects": {
+    "webDevelopmentPortfolioWebsite": {
+      "title": "Sitio Web de Portafolio de Desarrollo Web",
+      "description": "Un sitio web de portafolio que muestra proyectos de desarrollo web."
+    },
+    "graphicDesignPortfolioWebsite": {
+      "title": "Sitio Web de Portafolio de Diseño Gráfico",
+      "description": "Un sitio web de portafolio que muestra proyectos de diseño gráfico."
+    },
+    "myPensionMobileApp": {
+      "title": "Aplicación Móvil My Pension",
+      "description": "Una aplicación móvil para gestionar planes de pensiones."
+    },
+    "remoryoMobileApp": {
+      "title": "Aplicación Móvil Remoryo",
+      "description": "Una aplicación móvil para el entrenamiento de la memoria."
+    },
+    "leoLeo": {
+      "title": "Leo Leo",
+      "description": "Una aplicación web y móvil para el aprendizaje de idiomas."
+    },
+    "theCirculArtStatistics": {
+      "title": "Las Estadísticas de CirculArt",
+      "description": "Una aplicación web para visualizar estadísticas."
+    },
+    "sweetTextAIGenerator": {
+      "title": "Generador de Texto AI Sweet",
+      "description": "Una aplicación web para generar texto usando AI."
+    },
+    "foodOrderingAndDeliveryApp": {
+      "title": "Aplicación de Pedido y Entrega de Comida",
+      "description": "Una aplicación móvil para pedir y entregar comida."
+    },
+    "apiRESTful": {
+      "title": "API RESTful",
+      "description": "Una API RESTful para varios servicios."
+    }
+  },
+  "ContactSection": {
+    "title": "Contacto",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "send": "Enviar"
+  },
+  "TabData": {
+    "skills": {
+      "title": "Habilidades",
+      "node": "Node.js",
+      "jsTs": "JavaScript/TypeScript",
+      "react": "React",
+      "supabase": "Supabase"
+    },
+    "education": {
+      "title": "Formación",
+      "fullStack": "Desarrollador Full Stack",
+      "advancedJs": "JavaScript Avanzado",
+      "seniorWeb": "Desarrollador Web Senior"
+    },
+    "certifications": {
+      "title": "Certificaciones",
+      "fullStack": "Certificación Full Stack",
+      "advancedJs": "Certificación JavaScript Avanzado",
+      "jira": "Certificación Jira",
+      "confluence": "Certificación Confluence"
+    },
+    "languages": {
+      "title": "Idiomas",
+      "spanish": "Español",
+      "catalan": "Catalán",
+      "german": "Alemán",
+      "english": "Inglés",
+      "french": "Francés",
+      "italian": "Italiano",
+      "portuguese": "Portugués"
+    }
   }
 }

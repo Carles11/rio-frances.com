@@ -1,6 +1,117 @@
 {
   "MainPage": {
-    "title": "Hallo welt",
-    "about": "Go to the about page"
+    "title": "Willkommen in meinem Portfolio"
+  },
+  "AchievementsSection": {
+    "projects": "Projekte",
+    "users": "Benutzer",
+    "years": "Jahre Erfahrung"
+  },
+  "HeroSection": {
+    "greeting": "Hallo, ich bin",
+    "greeting-slide-1": "Webentwickler",
+    "greeting-slide-2": "mobiler App-Entwickler",
+    "greeting-slide-3": "auch UI/UX-Designer",
+    "description": "Lass uns in Kontakt treten. Ich bin verfügbar für freiberufliche, Vollzeit-, Teilzeit-, Vertrags- und Beratungsaufträge.",
+    "hireMe": "Stell mich ein",
+    "downloadCV": "Lebenslauf herunterladen"
+  },
+  "Navbar": {
+    "title": "Mein Portfolio",
+    "about": "Über mich",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "AboutSection": {
+    "title": "Über mich",
+    "description": "Ich bin ein Full-Stack-Webentwickler mit einer Leidenschaft für die Erstellung interaktiver und responsiver Webanwendungen. Ich habe Erfahrung mit JavaScript, React, Redux, Node.js, Express, PostgreSQL, Sequelize, HTML, CSS und Git. Ich lerne schnell und bin immer bestrebt, mein Wissen und meine Fähigkeiten zu erweitern. Ich arbeite gerne im Team und freue mich darauf, mit anderen zusammenzuarbeiten, um großartige Anwendungen zu erstellen.",
+    "skills": "Fähigkeiten",
+    "education": "Bildung",
+    "certifications": "Zertifizierungen",
+    "languages": "Sprachen"
+  },
+  "ProjectsSection": {
+    "title": "Projekte",
+    "all": "Alle",
+    "web": "Web",
+    "mobile": "Mobil"
+  },
+
+  "Projects": {
+    "webDevelopmentPortfolioWebsite": {
+      "title": "Webentwicklungs-Portfolio-Website",
+      "description": "Eine Portfolio-Website, die Webentwicklungsprojekte zeigt."
+    },
+    "graphicDesignPortfolioWebsite": {
+      "title": "Grafikdesign-Portfolio-Website",
+      "description": "Eine Portfolio-Website, die Grafikdesignprojekte zeigt."
+    },
+    "myPensionMobileApp": {
+      "title": "Meine Pension Mobile App",
+      "description": "Eine mobile App zur Verwaltung von Rentenplänen."
+    },
+    "remoryoMobileApp": {
+      "title": "Remoryo Mobile App",
+      "description": "Eine mobile App für Gedächtnistraining."
+    },
+    "leoLeo": {
+      "title": "Leo Leo",
+      "description": "Eine Web- und mobile Anwendung zum Sprachenlernen."
+    },
+    "theCirculArtStatistics": {
+      "title": "Die CirculArt-Statistiken",
+      "description": "Eine Webanwendung zur Visualisierung von Statistiken."
+    },
+    "sweetTextAIGenerator": {
+      "title": "Sweet Text AI Generator",
+      "description": "Eine Webanwendung zur Textgenerierung mit AI."
+    },
+    "foodOrderingAndDeliveryApp": {
+      "title": "Essensbestell- und Liefer-App",
+      "description": "Eine mobile App zum Bestellen und Liefern von Essen."
+    },
+    "apiRESTful": {
+      "title": "API RESTful",
+      "description": "Eine RESTful-API für verschiedene Dienste."
+    }
+  },
+  "ContactSection": {
+    "title": "Kontakt",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "send": "Senden"
+  },
+  "TabData": {
+    "skills": {
+      "title": "Fähigkeiten",
+      "node": "Node.js",
+      "jsTs": "JavaScript/TypeScript",
+      "react": "React",
+      "supabase": "Supabase"
+    },
+    "education": {
+      "title": "Bildung",
+      "fullStack": "Full Stack Entwickler",
+      "advancedJs": "Fortgeschrittenes JavaScript",
+      "seniorWeb": "Senior Web Entwickler"
+    },
+    "certifications": {
+      "title": "Zertifizierungen",
+      "fullStack": "Full Stack Zertifizierung",
+      "advancedJs": "Fortgeschrittene JavaScript Zertifizierung",
+      "jira": "Jira Zertifizierung",
+      "confluence": "Confluence Zertifizierung"
+    },
+    "languages": {
+      "title": "Sprachen",
+      "spanish": "Spanisch",
+      "catalan": "Katalanisch",
+      "german": "Deutsch",
+      "english": "Englisch",
+      "french": "Französisch",
+      "italian": "Italienisch",
+      "portuguese": "Portugiesisch"
+    }
   }
 }

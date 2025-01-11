@@ -1,6 +1,117 @@
 {
   "MainPage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
+    "title": "Welcome to my portfolio"
+  },
+  "AchievementsSection": {
+    "projects": "Projects",
+    "users": "Users",
+    "years": "Years of experience"
+  },
+  "HeroSection": {
+    "greeting": "Hello, I´m",
+    "greeting-slide-1": "a web developer",
+    "greeting-slide-2": "a mobile app developer",
+    "greeting-slide-3": "also a UI/UX designer",
+    "description": "Let´s get in touch. I´m available for freelance, full-time, part-time, contract, and consulting opportunities.",
+    "hireMe": "Hire me",
+    "downloadCV": "Download CV"
+  },
+  "Navbar": {
+    "title": "My Portfolio",
+    "about": "About me",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "AboutSection": {
+    "title": "About Me",
+    "description": "I am a full stack web developer with a passion for creating interactive and responsive web applications. I have experience working with JavaScript, React, Redux, Node.js, Express, PostgreSQL, Sequelize, HTML, CSS, and Git. I am a quick learner and I am always looking to expand my knowledge and skill set. I am a team player and I am excited to work with others to create amazing applications.",
+    "skills": "Skills",
+    "education": "Education",
+    "certifications": "Certifications",
+    "languages": "Languages"
+  },
+  "ProjectsSection": {
+    "title": "Projects",
+    "all": "All",
+    "web": "Web",
+    "mobile": "Mobile"
+  },
+
+  "Projects": {
+    "webDevelopmentPortfolioWebsite": {
+      "title": "Web Development Portfolio Website",
+      "description": "A portfolio website showcasing web development projects."
+    },
+    "graphicDesignPortfolioWebsite": {
+      "title": "Graphic Design Portfolio Website",
+      "description": "A portfolio website showcasing graphic design projects."
+    },
+    "myPensionMobileApp": {
+      "title": "My Pension Mobile App",
+      "description": "A mobile app for managing pension plans."
+    },
+    "remoryoMobileApp": {
+      "title": "Remoryo Mobile App",
+      "description": "A mobile app for memory training."
+    },
+    "leoLeo": {
+      "title": "Leo Leo",
+      "description": "A web and mobile application for language learning."
+    },
+    "theCirculArtStatistics": {
+      "title": "The CirculArt Statistics",
+      "description": "A web application for visualizing statistics."
+    },
+    "sweetTextAIGenerator": {
+      "title": "Sweet Text AI Generator",
+      "description": "A web application for generating text using AI."
+    },
+    "foodOrderingAndDeliveryApp": {
+      "title": "Food Ordering and Delivery App",
+      "description": "A mobile app for ordering and delivering food."
+    },
+    "apiRESTful": {
+      "title": "API RESTful",
+      "description": "A RESTful API for various services."
+    }
+  },
+  "ContactSection": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
+  },
+  "TabData": {
+    "skills": {
+      "title": "Skills",
+      "node": "Node.js",
+      "jsTs": "JavaScript/TypeScript",
+      "react": "React",
+      "supabase": "Supabase"
+    },
+    "education": {
+      "title": "Education",
+      "fullStack": "Full Stack Developer",
+      "advancedJs": "Advanced JavaScript",
+      "seniorWeb": "Senior Web Developer"
+    },
+    "certifications": {
+      "title": "Certifications",
+      "fullStack": "Full Stack Certification",
+      "advancedJs": "Advanced JavaScript Certification",
+      "jira": "Jira Certification",
+      "confluence": "Confluence Certification"
+    },
+    "languages": {
+      "title": "Languages",
+      "spanish": "Spanish",
+      "catalan": "Catalan",
+      "german": "German",
+      "english": "English",
+      "french": "French",
+      "italian": "Italian",
+      "portuguese": "Portuguese"
+    }
   }
 }

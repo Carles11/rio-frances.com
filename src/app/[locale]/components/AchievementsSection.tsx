@@ -1,6 +1,6 @@
 'use client'
 import dynamic from 'next/dynamic'
-import { achievementsList } from '@/config/achievementsList'
+import { useAchievementsList } from '@/config/achievementsList'
 
 const AnimatedNumbers = dynamic(
   () => {
@@ -10,6 +10,12 @@ const AnimatedNumbers = dynamic(
 )
 
 const AchievementsSection = () => {
+  const achievementsList: Array<{
+    prefix?: string
+    value: number
+    postfix?: string
+    metric: string
+  }> = useAchievementsList()
   return (
     <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
       <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between">
