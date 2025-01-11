@@ -31,14 +31,10 @@ export default function LocaleSwitcherSelect({ defaultValue }: Props) {
         id="locale-switcher"
         defaultValue={defaultValue}
         onChange={onSelectChange}
-        className="w-auto h-8 rounded-sm border-red-700 bg-transparent focus:ring-0 focus:ring-offset-0 custom-select"
+        className="w-11 h-8 rounded-sm bg-transparent focus:ring-0 focus:ring-offset-0 custom-select"
       >
         {routing.locales.map((locale) => (
-          <option
-            key={locale}
-            value={locale}
-            className="text-[#141414] bg-blue"
-          >
+          <option key={locale} value={locale}>
             {locale}
           </option>
         ))}
