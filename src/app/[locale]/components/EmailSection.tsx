@@ -1,9 +1,9 @@
 'use client'
-import GithubIcon from '../../../public/github-icon.svg'
-import LinkedinIcon from '../../../public/linkedin-icon.svg'
+import GithubIcon from '../../../../public/github-icon.svg'
+import LinkedinIcon from '../../../../public/linkedin-icon.svg'
 import Link from 'next/link'
 import Image from 'next/image'
-import emailSend from '@/app/utils/email'
+import emailSend from '@/app/[locale]/utils/email'
 import Swal from 'sweetalert2'
 import { FormData } from '@/types'
 
