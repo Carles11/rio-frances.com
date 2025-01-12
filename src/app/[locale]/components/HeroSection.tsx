@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
-import { motion } from 'framer-motion'
+// import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 
@@ -12,10 +12,10 @@ const HeroSection = () => {
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
+        <div
+          // initial={{ opacity: 0, scale: 0.5 }}
+          // animate={{ opacity: 1, scale: 1 }}
+          // transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="min-h-[120px] lg:min-h-[450px] text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
@@ -59,11 +59,11 @@ const HeroSection = () => {
               </span>
             </a>
           </div>
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
+        </div>
+        <div
+          // initial={{ opacity: 0, scale: 0.5 }}
+          // animate={{ opacity: 1, scale: 1 }}
+          // transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
@@ -75,7 +75,7 @@ const HeroSection = () => {
               height={300}
             />
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   )
