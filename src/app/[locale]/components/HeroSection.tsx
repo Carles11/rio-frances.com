@@ -5,8 +5,8 @@ import { TypeAnimation } from 'react-type-animation'
 // import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
-// "framer-motion": "^11.16.1",
-// "@emotion/is-prop-valid": "^1.3.1",
+//
+//
 
 const HeroSection = () => {
   const t = useTranslations('HeroSection')
