@@ -13,6 +13,11 @@ export const metadata = {
   description: 'Carles` del Río Portfolio',
 }
 
+interface MainPageMessages {
+  title: string
+  description: string
+}
+
 export default async function RootLayout({
   children,
   params,
@@ -21,19 +26,41 @@ export default async function RootLayout({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
+
   if (!routing.locales.includes(locale as Locale)) {
     notFound()
   }
 
   // Providing all messages to the client
-  // side is the easiest way to get started
   const messages = await getMessages()
-
   return (
     <>
       <Head>
-        <title>Portfolio website of Carles del Río Francés</title>
-        <meta name="description" content="Your site description" />
+        <title>{(messages as unknown as MainPageMessages).title}</title>
+        <meta
+          name="description"
+          content={(messages as unknown as MainPageMessages).description}
+        />
+        <meta
+          name="keywords"
+          content="Carles del Río Francés, Web Developer, Mobile Developer, Portfolio"
+        />
+        <meta property="og:title" content="Carles del Río Francés" />
+        <meta
+          property="og:description"
+          content="Portfolio website of Carles del Río Francés as Web and mobile developer"
+        />
+        <meta property="og:image" content="/images/carles-in-ids.png" />
+        <meta property="og:url" content="https://www.rio-frances.com" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Carles del Río Francés" />
+        <meta
+          name="twitter:description"
+          content="Portfolio website of Carles del Río Francés as Web and mobile developer"
+        />
+        <meta name="twitter:image" content="/images/carles-in-ids.png" />
+        <link rel="canonical" href="https://www.rio-frances.com" />
         <link rel="icon" href="/favicons/favicon.ico" />
 
         <link
@@ -55,7 +82,7 @@ export default async function RootLayout({
         />
         <link rel="manifest" href="/favicons/site.webmanifest" />
       </Head>
-      <html lang="en">
+      <html lang={locale}>
         <body className={inter.className}>
           <NextIntlClientProvider messages={messages}>
             {children}

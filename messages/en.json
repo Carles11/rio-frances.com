@@ -1,6 +1,7 @@
 {
   "MainPage": {
-    "title": "Welcome to my portfolio"
+    "title": "Welcome to my portfolio",
+    "description": "Portfolio website of Carles del Río Francés as Web and mobile developer"
   },
   "AchievementsSection": {
     "projects": "Projects",
