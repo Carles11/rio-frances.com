@@ -30,31 +30,33 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">{t('title')}</h2>
           <p className="text-base lg:text-lg">{t('description')}</p>
-          <div className="flex flex-row justify-start mt-8">
-            <TabButton
-              selectTab={() => handleTabChange('skills')}
-              active={tab === 'skills'}
-            >
-              {t('skills')}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange('education')}
-              active={tab === 'education'}
-            >
-              {t('education')}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange('certifications')}
-              active={tab === 'certifications'}
-            >
-              {t('certifications')}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange('languages')}
-              active={tab === 'languages'}
-            >
-              {t('languages')}
-            </TabButton>
+          <div className="flex flex-row justify-start overflow-x-auto mt-8">
+            <div className="space-x-4">
+              <TabButton
+                selectTab={() => handleTabChange('skills')}
+                active={tab === 'skills'}
+              >
+                {t('skills')}
+              </TabButton>
+              <TabButton
+                selectTab={() => handleTabChange('education')}
+                active={tab === 'education'}
+              >
+                {t('education')}
+              </TabButton>
+              <TabButton
+                selectTab={() => handleTabChange('certifications')}
+                active={tab === 'certifications'}
+              >
+                {t('certifications')}
+              </TabButton>
+              <TabButton
+                selectTab={() => handleTabChange('languages')}
+                active={tab === 'languages'}
+              >
+                {t('languages')}
+              </TabButton>
+            </div>
           </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab)?.content}
