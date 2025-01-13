@@ -9,9 +9,9 @@
   },
   "HeroSection": {
     "greeting": "Hola, soy",
-    "greeting-slide-1": "un desarrollador web",
-    "greeting-slide-2": "un desarrollador de aplicaciones móviles",
-    "greeting-slide-3": "también un diseñador UI/UX",
+    "greeting-slide-1": "desarrollador web",
+    "greeting-slide-2": "desarrollador de aplicaciones móviles",
+    "greeting-slide-3": "también diseñador UI/UX",
     "description": "Pongámonos en contacto. Estoy disponible para oportunidades de freelance, tiempo completo, medio tiempo, contrato y consultoría.",
     "hireMe": "Contrátame",
     "downloadCV": "Descargar CV"
