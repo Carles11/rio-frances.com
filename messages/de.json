@@ -51,15 +51,15 @@
       "description": "Eine Webanwendung und ein Kundenportal zur Verwaltung von Rentenplänen. Erstellt mit NodeJS, React, Express, Sass, Bootstrap und MySQL."
     },
     "myPensionMobileApp": {
-      "title": "myPension Mobile-App",
-      "description": "Eine mobile App zur Verwaltung von Rentenplänen in Deutschland. NodeJS, React Native, Expo, Sass, MySQL."
+      "title": "myPension Mobile-Anwendung",
+      "description": "Eine mobile Anwendung zur Verwaltung von Rentenplänen in Deutschland. NodeJS, React Native, Expo, Sass, MySQL."
     },
     "remoryoMobileApp": {
-      "title": "Remoryo Mobile-App",
-      "description": "Eine mobile-App, die die Kommunikation mit älteren Angehörigen verbessert, indem monatlich gedruckte Magazine erstellt und versendet werden. Erstellt mit React-Native, Expo, styled-components, PuppeteerHTMLPDF, MySQL, Stripe und Push-Benachrichtigungen."
+      "title": "Remoryo Mobile-Anwendung",
+      "description": "Eine mobile-Anwendung, die die Kommunikation mit älteren Angehörigen verbessert, indem monatlich gedruckte Magazine erstellt und versendet werden. Erstellt mit React-Native, Expo, styled-components, PuppeteerHTMLPDF, MySQL, Stripe und Push-Benachrichtigungen."
     },
     "leoLeo": {
-      "title": "Leo Leo",
+      "title": "Leo, leo... ¿Qué lees?",
       "description": "Eine Webanwendung (und PWA) zur Verwaltung von Teilnehmern und Organisation eines jährlichen spanischen Lesewettbewerbs für deutsche Schulen. Seit 2019. React, Express, CSS3, MongoDB. Admin-Panel."
     },
     "theCirculArtStatistics": {
@@ -130,7 +130,7 @@
     "design": "Entworfen und entwickelt von Carles del Río Francés",
     "check-crix": "Besuche meine Projekte als Grafikdesigner auf",
     "rights": "Alle Rechte vorbehalten.",
-    "no-cookies": "Diese Website verwendet keine Cookies oder ähnliche Technologien."
+    "no-cookies": "Diese Website verwendet keine Cookies oder ähnliche Tracking-Technologien."
   },
   "ToastMessages": {
     "closeButton": "Schließen",

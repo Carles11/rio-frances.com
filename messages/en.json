@@ -13,7 +13,7 @@
     "greeting-slide-1": "a web developer",
     "greeting-slide-2": "a mobile app developer",
     "greeting-slide-3": "also a UI/UX designer",
-    "description": "Let´s get in touch. I´m available for freelance, full-time, part-time, contract, and consulting opportunities.",
+    "description": "Let´s get in touch. I´m available for freelance, full-time, part-time, contract and consulting opportunities.",
     "hireMe": "Hire me",
     "downloadCV": "Download CV"
   },
@@ -25,7 +25,7 @@
   },
   "AboutSection": {
     "title": "About Me",
-    "description": "I am a front-end developer specializing in web and mobile applications. I am passionate about creating interactive and responsive experiences using technologies such as JavaScript, React, NextJS, React Native with Expo, Node.js, Express, Jira and Confluence, HTML, CSS, and Git. I am always looking for new opportunities to expand my knowledge and skills.",
+    "description": "I am a front-end developer specializing in web and mobile applications. I am passionate about creating interactive and responsive experiences using technologies such as JavaScript, React, NextJS, React Native with Expo, Node.js, Express, Jira and Confluence, HTML, CSS and Git. I am always looking for new opportunities to expand my knowledge and skills.",
     "skills": "Skills",
     "education": "Education",
     "certifications": "Certifications",
@@ -41,15 +41,15 @@
   "Projects": {
     "webDevelopmentPortfolioWebsite": {
       "title": "Web Development Portfolio Website",
-      "description": "A portfolio website highlighting my web and mobile development projects. Built with NextJS, React, TypeScript, and TailwindCSS."
+      "description": "A portfolio website highlighting my web and mobile development projects. Built with NextJS, React, TypeScript and TailwindCSS."
     },
     "graphicDesignPortfolioWebsite": {
       "title": "Graphic Design Portfolio Website",
-      "description": "A portfolio website displaying my graphic design projects. Built with React, Express, and CSS3."
+      "description": "A portfolio website displaying my graphic design projects. Built with React, Express and CSS3."
     },
     "myPensionWebApp": {
       "title": "My Pension Web App",
-      "description": "A web application and client portal for managing pension plans. Built with NodeJS, React, Express, Sass, Bootstrap, and MySQL."
+      "description": "A web application and client portal for managing pension plans. Built with NodeJS, React, Redux, Express, Sass, Bootstrap and MySQL."
     },
     "myPensionMobileApp": {
       "title": "My Pension Mobile App",
@@ -57,7 +57,7 @@
     },
     "remoryoMobileApp": {
       "title": "Remoryo Mobile App",
-      "description": "A mobile app designed to enhance communication with elderly loved ones by generating and sending monthly printed magazines. Built with React-Native, Expo, styled-components, PuppeteerHTMLPDF, MySQL, Stripe, and push notifications."
+      "description": "A mobile app designed to enhance communication with elderly loved ones by generating and sending monthly printed magazines. Built with React-Native, Expo, styled-components, Zustand, PuppeteerHTMLPDF, MySQL, Stripe and push notifications."
     },
     "leoLeo": {
       "title": "Leo Leo",
@@ -77,7 +77,7 @@
     },
     "apiRESTful": {
       "title": "API RESTful",
-      "description": "A robust and scalable RESTful API designed to provide seamless integration and efficient data management for a variety of services. Built with Node.js, Express, and MongoDB, it ensures high performance and reliability."
+      "description": "A robust and scalable RESTful API designed to provide seamless integration and efficient data management for a variety of services. Built with Node.js, Express and MongoDB. It ensures high performance and reliability."
     }
   },
   "ContactSection": {
@@ -131,7 +131,7 @@
     "design": "Designed and developed by Carles del Río Francés",
     "check-crix": "Check out my projects as a graphic designer on",
     "rights": "All rights reserved.",
-    "no-cookies": "This website does not use cookies or similar technologies."
+    "no-cookies": "This website does not use cookies or similar tracking technologies."
   },
   "ToastMessages": {
     "closeButton": "Close",

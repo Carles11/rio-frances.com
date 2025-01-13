@@ -5,13 +5,13 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
   return (
     <footer className="w-full py-11 mx-auto border border-[#33353F] bottom-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90 text-xs text-white">
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto text-center space-y-1">
         <p>
           © {currentYear} Carles del Río Francés. {t('rights')}
         </p>
         <p>{t('design')}. </p>
         <p>
-          {t('check-crix')}.{' '}
+          {t('check-crix')}{' '}
           <a
             href="https://crix.design"
             target="_blank"
@@ -20,6 +20,7 @@ const Footer = () => {
           >
             CriX Design
           </a>
+          .
         </p>
         <p>{t('no-cookies')}</p>
       </div>

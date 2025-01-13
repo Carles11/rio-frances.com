@@ -13,7 +13,7 @@
     "greeting-slide-1": "desarrollador web",
     "greeting-slide-2": "desarrollador de aplicaciones móviles",
     "greeting-slide-3": "también diseñador UI/UX",
-    "description": "Pongámonos en contacto. Estoy disponible para oportunidades de freelance, tiempo completo o parcial, contrato y consultoría.",
+    "description": "Pongámonos en contacto. Estoy disponible para oportunidades de freelance o contrato, a tiempo completo o parcial y consultorías.",
     "hireMe": "Contrátame",
     "downloadCV": "Descargar CV"
   },
@@ -130,7 +130,7 @@
     "design": "Diseñado y desarrollado por Carles del Río Francés",
     "check-crix": "Visita mis proyectos como diseñador gráfico en",
     "rights": "Todos los derechos reservados.",
-    "no-cookies": "Este sitio web no utiliza cookies ni tecnologías similares."
+    "no-cookies": "Este sitio web no utiliza cookies ni tecnologías de rastreo similares."
   },
   "ToastMessages": {
     "closeButton": "Cerrar",
