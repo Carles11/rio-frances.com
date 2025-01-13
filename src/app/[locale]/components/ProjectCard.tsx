@@ -21,7 +21,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         style={{ background: `url(${imgUrl})`, backgroundSize: 'cover' }}
       >
         <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
-          {ident === 3 || ident === 4 ? (
+          {ident === 3 || ident === 4 || ident === 5 ? (
             <div
               onClick={() => {
                 Swal.fire({

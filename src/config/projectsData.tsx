@@ -24,6 +24,15 @@ export const useProjectsData = () => {
     },
     {
       id: 3,
+      title: t('myPensionWebApp.title'),
+      description: t('myPensionWebApp.description'),
+      image: '/images/projects/mypension-web.png',
+      tag: ['all', 'web'],
+      gitUrl: '/',
+      previewUrl: 'https://www.mypension.de',
+    },
+    {
+      id: 4,
       title: t('myPensionMobileApp.title'),
       description: t('myPensionMobileApp.description'),
       image: '/images/projects/mypension-de-low.jpg',
@@ -33,7 +42,7 @@ export const useProjectsData = () => {
         'https://play.google.com/store/apps/details?id=de.mypension.mypension',
     },
     {
-      id: 4,
+      id: 5,
       title: t('remoryoMobileApp.title'),
       description: t('remoryoMobileApp.description'),
       image: '/images/projects/remoryo-low.jpg',
@@ -42,7 +51,7 @@ export const useProjectsData = () => {
       previewUrl: 'https://www.remoryo.com/download-app',
     },
     {
-      id: 5,
+      id: 6,
       title: t('leoLeo.title'),
       description: t('leoLeo.description'),
       image: '/images/projects/leo-leo-low.jpg',
@@ -51,7 +60,7 @@ export const useProjectsData = () => {
       previewUrl: 'https://www.leo-leo-hessen.com',
     },
     {
-      id: 6,
+      id: 7,
       title: t('theCirculArtStatistics.title'),
       description: t('theCirculArtStatistics.description'),
       image: '/images/projects/circulart-stats-low.jpg',
@@ -60,7 +69,7 @@ export const useProjectsData = () => {
       previewUrl: 'https://thecirculart-statistics.vercel.app/',
     },
     {
-      id: 7,
+      id: 8,
       title: t('sweetTextAIGenerator.title'),
       description: t('sweetTextAIGenerator.description'),
       image: '/images/projects/sweet-text-low.jpg',
@@ -69,7 +78,7 @@ export const useProjectsData = () => {
       previewUrl: 'https://sweet-text-ai.vercel.app/',
     },
     {
-      id: 8,
+      id: 9,
       title: t('foodOrderingAndDeliveryApp.title'),
       description: t('foodOrderingAndDeliveryApp.description'),
       image: '/images/projects/food-ordering-app-low.jpg',
@@ -78,7 +87,7 @@ export const useProjectsData = () => {
       previewUrl: 'https://www.youtube.com/watch?v=rIYzLhkG9TA&t=26793s',
     },
     {
-      id: 9,
+      id: 10,
       title: t('apiRESTful.title'),
       description: t('apiRESTful.description'),
       image: '/images/projects/api-img.webp',
