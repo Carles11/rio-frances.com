@@ -9,8 +9,9 @@ const Footer = () => {
         <p>
           © {currentYear} Carles del Río Francés. {t('rights')}
         </p>
+        <p>{t('design')}. </p>
         <p>
-          {t('design')}{' '}
+          {t('check-crix')}.{' '}
           <a
             href="https://crix.design"
             target="_blank"

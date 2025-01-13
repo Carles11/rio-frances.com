@@ -47,16 +47,16 @@
       "description": "Eine Portfolio-Website, die meine Grafikdesign-Projekte zeigt. Erstellt mit React, Express und CSS3."
     },
     "myPensionWebApp": {
-      "title": "Meine Renten-Web-App",
+      "title": "myPension Web-App",
       "description": "Eine Webanwendung und ein Kundenportal zur Verwaltung von Rentenplänen. Erstellt mit NodeJS, React, Express, Sass, Bootstrap und MySQL."
     },
     "myPensionMobileApp": {
-      "title": "Meine Renten-Mobile-App",
+      "title": "myPension Mobile-App",
       "description": "Eine mobile App zur Verwaltung von Rentenplänen in Deutschland. NodeJS, React Native, Expo, Sass, MySQL."
     },
     "remoryoMobileApp": {
-      "title": "Remoryo Mobile App",
-      "description": "Eine mobile App, die die Kommunikation mit älteren Angehörigen verbessert, indem monatlich gedruckte Magazine erstellt und versendet werden. Erstellt mit React-Native, Expo, styled-components, PuppeteerHTMLPDF, MySQL, Stripe und Push-Benachrichtigungen."
+      "title": "Remoryo Mobile-App",
+      "description": "Eine mobile-App, die die Kommunikation mit älteren Angehörigen verbessert, indem monatlich gedruckte Magazine erstellt und versendet werden. Erstellt mit React-Native, Expo, styled-components, PuppeteerHTMLPDF, MySQL, Stripe und Push-Benachrichtigungen."
     },
     "leoLeo": {
       "title": "Leo Leo",
@@ -68,7 +68,7 @@
     },
     "sweetTextAIGenerator": {
       "title": "Sweet Text AI Generator",
-      "description": "Eine Webanwendung zur Erstellung von süßen Textnachrichten mit KI. React, Express, CSS3, chat-GPT3."
+      "description": "Eine Webanwendung zur Erstellung von Textnachrichten mit KI. React, Express, CSS3 und chat-GPT3."
     },
     "foodOrderingAndDeliveryApp": {
       "title": "Essensbestell- und Liefer-App",
@@ -128,6 +128,7 @@
   },
   "Footer": {
     "design": "Entworfen und entwickelt von Carles del Río Francés",
+    "check-crix": "Besuche meine Projekte als Grafikdesigner auf",
     "rights": "Alle Rechte vorbehalten.",
     "no-cookies": "Diese Website verwendet keine Cookies oder ähnliche Technologien."
   },

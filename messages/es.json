@@ -1,7 +1,7 @@
 {
   "MainPage": {
     "title": "Bienvenido a mi portafolio",
-    "description": "Sitio web de portafolio de Carles del Río Francés como desarrollador web y móvil"
+    "description": "Sitio web como portafolio de Carles del Río Francés como desarrollador web y móvil"
   },
   "AchievementsSection": {
     "projects": "Proyectos",
@@ -39,15 +39,15 @@
   },
   "Projects": {
     "webDevelopmentPortfolioWebsite": {
-      "title": "Sitio Web de Portafolio de Desarrollo Web",
-      "description": "Un sitio web de portafolio que destaca mis proyectos de desarrollo web y móvil. Construido con NextJS, React, TypeScript y TailwindCSS."
+      "title": "Portafolio de Desarrollo Web",
+      "description": "Un sitio web como  portafolio que destaca mis proyectos de desarrollo web y móvil. Construido con NextJS, React, TypeScript y TailwindCSS."
     },
     "graphicDesignPortfolioWebsite": {
-      "title": "Sitio Web de Portafolio de Diseño Gráfico",
-      "description": "Un sitio web de portafolio que muestra mis proyectos de diseño gráfico. Construido con React, Express y CSS3."
+      "title": "Portafolio de Diseño Gráfico",
+      "description": "Un sitio web como portafolio que muestra mis proyectos de diseño gráfico. Construido con React, Express y CSS3."
     },
     "myPensionWebApp": {
-      "title": "Aplicación Web de Mi Pensión",
+      "title": "Aplicación Web de MyPension",
       "description": "Una aplicación web y portal de clientes para gestionar planes de pensiones. Construido con NodeJS, React, Express, Sass, Bootstrap y MySQL."
     },
     "myPensionMobileApp": {
@@ -67,8 +67,8 @@
       "description": "Una aplicación web atractiva diseñada para visualizar estadísticas de clientes para theCirculArt, una empresa que proporciona soluciones innovadoras de economía circular para empresas del sector financiero."
     },
     "sweetTextAIGenerator": {
-      "title": "Generador de Textos Dulces con IA",
-      "description": "Una aplicación web diseñada para generar mensajes de texto dulces usando IA. React, Express, CSS3, chat-GPT3."
+      "title": "Generador de Textos con IA",
+      "description": "Una aplicación web diseñada para generar mensajes de texto usando IA. React, Express, CSS3 y chat-GPT3."
     },
     "foodOrderingAndDeliveryApp": {
       "title": "Aplicación de Pedido y Entrega de Comida",
@@ -128,6 +128,7 @@
   },
   "Footer": {
     "design": "Diseñado y desarrollado por Carles del Río Francés",
+    "check-crix": "Visita mis proyectos como diseñador gráfico en",
     "rights": "Todos los derechos reservados.",
     "no-cookies": "Este sitio web no utiliza cookies ni tecnologías similares."
   },
