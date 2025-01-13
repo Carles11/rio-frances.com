@@ -59,7 +59,7 @@
     },
     "leoLeo": {
       "title": "Leo Leo",
-      "description": "Una aplicación web (y PWA) diseñada para gestionar participantes y organizar un concurso anual de lectura en español para escuelas alemanas. Desde 2019. React, Express, CSS3, MongoDB."
+      "description": "Una aplicación web (y PWA) diseñada para gestionar participantes y organizar un concurso anual de lectura en español para escuelas alemanas. Desde 2019. React, Express, CSS3, MongoDB. Admin panel."
     },
     "theCirculArtStatistics": {
       "title": "Las Estadísticas de CirculArt",

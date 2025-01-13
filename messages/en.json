@@ -60,7 +60,7 @@
     },
     "leoLeo": {
       "title": "Leo Leo",
-      "description": "A web application (and PWA) designed to manage participants and organize a yearly Spanish reading contest for German schools. Since 2019. React, Express, CSS3, MongoDB."
+      "description": "A web application (and PWA) designed to manage participants and organize a yearly Spanish reading contest for German schools. Since 2019. React, Express, CSS3, MongoDB. Admin panel."
     },
     "theCirculArtStatistics": {
       "title": "The CirculArt Statistics",

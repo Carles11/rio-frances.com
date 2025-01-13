@@ -59,7 +59,7 @@
     },
     "leoLeo": {
       "title": "Leo Leo",
-      "description": "Eine Webanwendung (und PWA) zur Verwaltung von Teilnehmern und Organisation eines jährlichen spanischen Lesewettbewerbs für deutsche Schulen. Seit 2019. React, Express, CSS3, MongoDB."
+      "description": "Eine Webanwendung (und PWA) zur Verwaltung von Teilnehmern und Organisation eines jährlichen spanischen Lesewettbewerbs für deutsche Schulen. Seit 2019. React, Express, CSS3, MongoDB. Admin-Panel."
     },
     "theCirculArtStatistics": {
       "title": "The CirculArt Statistics",
