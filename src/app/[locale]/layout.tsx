@@ -61,7 +61,7 @@ export default async function RootLayout({
         />
         <meta name="twitter:image" content="/images/carles-in-ids.png" />
         <link rel="canonical" href="https://www.rio-frances.com" />
-        <link rel="icon" href="/favicons/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
 
         <link
           rel="apple-touch-icon"
