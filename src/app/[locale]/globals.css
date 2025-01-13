@@ -45,3 +45,18 @@ body {
   outline: none;
   box-shadow: none;
 }
+
+.custom-list {
+  list-style-type: disc;
+  padding-left: 0.5rem; /* equivalent to pl-2 in Tailwind CSS */
+}
+
+.custom-link {
+  text-decoration: underline;
+  color: rgb(71, 161, 212);
+}
+
+.custom-link:hover {
+  text-decoration: underline;
+  color: #af4c1e; /* equivalent to hover:text-blue-400 in Tailwind CSS */
+}

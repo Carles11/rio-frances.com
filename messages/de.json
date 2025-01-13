@@ -11,7 +11,7 @@
   "HeroSection": {
     "greeting": "Hallo, ich bin",
     "greeting-slide-1": "Webentwickler",
-    "greeting-slide-2": "mobiler App-Entwickler",
+    "greeting-slide-2": "Entwickler mobiler Anwendungen",
     "greeting-slide-3": "auch UI/UX-Designer",
     "description": "Lass uns in Kontakt treten. Ich bin verfügbar für freiberufliche, Vollzeit-, Teilzeit-, Vertrags- und Beratungsaufträge.",
     "hireMe": "Stell mich ein",
@@ -119,7 +119,7 @@
       "title": "Sprachen",
       "spanish": "Spanisch (Muttersprache)",
       "catalan": "Katalanisch (Muttersprache)",
-      "german": "Deutsch, C1 (KDS)",
+      "german": "Deutsch, C1",
       "english": "Englisch, C1",
       "french": "Französisch, B1",
       "italian": "Italienisch, B2",
