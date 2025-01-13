@@ -1,3 +1,5 @@
+'use client'
+
 import { ProjectTagProps } from '@/types'
 
 const ProjectTag: React.FC<ProjectTagProps> = ({

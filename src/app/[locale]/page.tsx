@@ -1,3 +1,5 @@
+'use client'
+
 import HeroSection from '@/app/[locale]/components/HeroSection'
 import AboutSection from '@/app/[locale]/components/AboutSection'
 import ProjectsSection from './components/ProjectSection'

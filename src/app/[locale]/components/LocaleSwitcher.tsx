@@ -1,3 +1,5 @@
+'use client'
+
 import { GlobeAltIcon } from '@heroicons/react/24/solid'
 import { useLocale } from 'next-intl'
 import LocaleSwitcherSelect from './LocaleSwitcherSelect'
