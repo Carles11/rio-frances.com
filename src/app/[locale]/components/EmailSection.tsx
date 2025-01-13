@@ -1,4 +1,5 @@
 'use client'
+import { useState } from 'react'
 import GithubIcon from '../../../../public/github-icon.svg'
 import LinkedinIcon from '../../../../public/linkedin-icon.svg'
 import Link from 'next/link'
@@ -13,19 +14,17 @@ const EmailSection = () => {
   const tToast = useTranslations('ToastMessages')
   const emailSend = useEmailSend()
 
+  const [email, setEmail] = useState('')
+  const [subject, setSubject] = useState('')
+  const [message, setMessage] = useState('')
+
   const handleSubmit = async (
     e: React.FormEvent<HTMLFormElement>,
   ): Promise<void> => {
     e.preventDefault()
-    const data: FormData = {
-      email: e.currentTarget.email.value,
-      subject: e.currentTarget.subject.value,
-      message: e.currentTarget.message.value,
-    }
+    const data: FormData = { email, subject, message }
 
-    const formErrors = !data.email || data.email === 'undefined'
-
-    if (formErrors) {
+    if (!email || !subject || !message) {
       Swal.fire({
         title: tToast('errorTitle'),
         text: tToast('errorMessage'),
@@ -38,7 +37,9 @@ const EmailSection = () => {
     }
 
     const resetForm = () => {
-      e.currentTarget.reset()
+      setEmail('')
+      setSubject('')
+      setMessage('')
     }
 
     emailSend(data, resetForm)
@@ -76,6 +77,8 @@ const EmailSection = () => {
               type="email"
               id="email"
               required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
               placeholder={t('emailPlaceholder')}
             />
@@ -92,6 +95,8 @@ const EmailSection = () => {
               type="text"
               id="subject"
               required
+              value={subject}
+              onChange={(e) => setSubject(e.target.value)}
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
               placeholder={t('subjectPlaceholder')}
             />
@@ -106,6 +111,9 @@ const EmailSection = () => {
             <textarea
               name="message"
               id="message"
+              required
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
               placeholder={t('messagePlaceholder')}
             />
