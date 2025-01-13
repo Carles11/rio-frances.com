@@ -126,6 +126,11 @@
       "portuguese": "Portugiesisch, A1 (im Gange)"
     }
   },
+  "Footer": {
+    "design": "Entworfen und entwickelt von Carles del Río Francés",
+    "rights": "Alle Rechte vorbehalten.",
+    "no-cookies": "Diese Website verwendet keine Cookies oder ähnliche Technologien."
+  },
   "ToastMessages": {
     "closeButton": "Schließen",
     "confirmButton": "Ok",

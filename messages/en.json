@@ -127,6 +127,11 @@
       "portuguese": "Portuguese, A1 (ongoing)"
     }
   },
+  "Footer": {
+    "design": "Designed and developed by Carles del Río Francés",
+    "rights": "All rights reserved.",
+    "no-cookies": "This website does not use cookies or similar technologies."
+  },
   "ToastMessages": {
     "closeButton": "Close",
     "confirmButton": "Ok",

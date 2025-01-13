@@ -126,6 +126,11 @@
       "portuguese": "Portugués, A1 (en curso)"
     }
   },
+  "Footer": {
+    "design": "Diseñado y desarrollado por Carles del Río Francés",
+    "rights": "Todos los derechos reservados.",
+    "no-cookies": "Este sitio web no utiliza cookies ni tecnologías similares."
+  },
   "ToastMessages": {
     "closeButton": "Cerrar",
     "confirmButton": "Aceptar",
