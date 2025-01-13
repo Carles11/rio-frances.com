@@ -43,15 +43,11 @@ const useEmailSend = () => {
         },
         (error: EmailSendError) => {
           console.log({ error })
-          const status = error.text
           const text = error.text
 
           Swal.fire({
             title: tToast('errorTitle'),
-            text: tToast('retryErrorMessage', {
-              status: status,
-              text: text,
-            }),
+            text: tToast('retryErrorMessage', { text }),
             icon: 'error',
             showConfirmButton: false,
             showCancelButton: true,
