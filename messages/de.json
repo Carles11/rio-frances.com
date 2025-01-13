@@ -39,39 +39,43 @@
   "Projects": {
     "webDevelopmentPortfolioWebsite": {
       "title": "Webentwicklungs-Portfolio-Website",
-      "description": "Eine Portfolio-Website, die Webentwicklungsprojekte zeigt."
+      "description": "Eine Portfolio-Website, die meine Web- und Mobile-Entwicklungsprojekte hervorhebt. Erstellt mit NextJS, React, TypeScript und TailwindCSS."
     },
     "graphicDesignPortfolioWebsite": {
       "title": "Grafikdesign-Portfolio-Website",
-      "description": "Eine Portfolio-Website, die Grafikdesignprojekte zeigt."
+      "description": "Eine Portfolio-Website, die meine Grafikdesign-Projekte zeigt. Erstellt mit React, Express und CSS3."
+    },
+    "myPensionWebApp": {
+      "title": "Meine Renten-Web-App",
+      "description": "Eine Webanwendung und ein Kundenportal zur Verwaltung von Rentenplänen. Erstellt mit NodeJS, React, Express, Sass, Bootstrap und MySQL."
     },
     "myPensionMobileApp": {
-      "title": "Meine Pension Mobile App",
-      "description": "Eine mobile App zur Verwaltung von Rentenplänen."
+      "title": "Meine Renten-Mobile-App",
+      "description": "Eine mobile App zur Verwaltung von Rentenplänen in Deutschland. NodeJS, React Native, Expo, Sass, MySQL."
     },
     "remoryoMobileApp": {
       "title": "Remoryo Mobile App",
-      "description": "Eine mobile App für Gedächtnistraining."
+      "description": "Eine mobile App, die die Kommunikation mit älteren Angehörigen verbessert, indem monatlich gedruckte Magazine erstellt und versendet werden. Erstellt mit React-Native, Expo, styled-components, PuppeteerHTMLPDF, MySQL, Stripe und Push-Benachrichtigungen."
     },
     "leoLeo": {
       "title": "Leo Leo",
-      "description": "Eine Web- und mobile Anwendung zum Sprachenlernen."
+      "description": "Eine Webanwendung (und PWA) zur Verwaltung von Teilnehmern und Organisation eines jährlichen spanischen Lesewettbewerbs für deutsche Schulen. Seit 2019. React, Express, CSS3, MongoDB."
     },
     "theCirculArtStatistics": {
-      "title": "Die CirculArt-Statistiken",
-      "description": "Eine Webanwendung zur Visualisierung von Statistiken."
+      "title": "The CirculArt Statistics",
+      "description": "Eine ansprechende Webanwendung zur Visualisierung von Kundenstatistiken für theCirculArt, ein Unternehmen, das innovative Lösungen für die Kreislaufwirtschaft für Unternehmen im Finanzsektor anbietet."
     },
     "sweetTextAIGenerator": {
       "title": "Sweet Text AI Generator",
-      "description": "Eine Webanwendung zur Textgenerierung mit AI."
+      "description": "Eine Webanwendung zur Erstellung von süßen Textnachrichten mit KI. React, Express, CSS3, chat-GPT3."
     },
     "foodOrderingAndDeliveryApp": {
       "title": "Essensbestell- und Liefer-App",
-      "description": "Eine mobile App zum Bestellen und Liefern von Essen."
+      "description": "Eine mobile App zum Bestellen und Liefern von Essen, basierend auf dem NotJustDev-Tutorial von Vadim Savin. React Native, Expo, Supabase, Stripe, Push-Benachrichtigungen."
     },
     "apiRESTful": {
       "title": "API RESTful",
-      "description": "Eine RESTful-API für verschiedene Dienste."
+      "description": "Eine robuste und skalierbare RESTful API, die nahtlose Integration und effizientes Datenmanagement für eine Vielzahl von Diensten bietet. Erstellt mit Node.js, Express und MongoDB, gewährleistet sie hohe Leistung und Zuverlässigkeit."
     }
   },
   "ContactSection": {
@@ -90,21 +94,25 @@
       "title": "Fähigkeiten",
       "node": "Node.js",
       "jsTs": "JavaScript/TypeScript",
+      "next": "NextJS",
       "react": "React",
+      "react-native": "React Native",
+      "expo": "Expo",
+      "mongo": "MongoDB",
       "supabase": "Supabase"
     },
     "education": {
       "title": "Bildung",
-      "fullStack": "Full Stack Entwickler",
-      "advancedJs": "Fortgeschrittenes JavaScript",
+      "fullStack": "JavaScript Full Stack Entwickler",
+      "advancedJs": "Fortgeschrittene Programmierung mit JavaScript und ECMAScript",
       "seniorWeb": "Senior Web Entwickler"
     },
     "certifications": {
       "title": "Zertifizierungen",
-      "fullStack": "Full Stack Zertifizierung",
-      "advancedJs": "Fortgeschrittene JavaScript Zertifizierung",
-      "jira": "Jira Zertifizierung",
-      "confluence": "Confluence Zertifizierung"
+      "fullStack": "JavaScript Full Stack",
+      "advancedJs": "Fortgeschrittene Programmierung mit JavaScript und ECMAScript",
+      "jira": "Jira",
+      "confluence": "Confluence"
     },
     "languages": {
       "title": "Sprachen",
@@ -114,7 +122,7 @@
       "english": "Englisch, C1",
       "french": "Französisch, B1",
       "italian": "Italienisch, B2",
-      "portuguese": "Portugiesisch, A1"
+      "portuguese": "Portugiesisch, A1 (im Gange)"
     }
   },
   "ToastMessages": {

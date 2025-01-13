@@ -40,39 +40,43 @@
   "Projects": {
     "webDevelopmentPortfolioWebsite": {
       "title": "Web Development Portfolio Website",
-      "description": "A portfolio website showcasing web development projects."
+      "description": "A portfolio website highlighting my web and mobile development projects. Built with NextJS, React, TypeScript, and TailwindCSS."
     },
     "graphicDesignPortfolioWebsite": {
       "title": "Graphic Design Portfolio Website",
-      "description": "A portfolio website showcasing graphic design projects."
+      "description": "A portfolio website displaying my graphic design projects. Built with React, Express, and CSS3."
+    },
+    "myPensionWebApp": {
+      "title": "My Pension Web App",
+      "description": "A web application and client portal for managing pension plans. Built with NodeJS, React, Express, Sass, Bootstrap, and MySQL."
     },
     "myPensionMobileApp": {
       "title": "My Pension Mobile App",
-      "description": "A mobile app for managing pension plans."
+      "description": "A mobile app for managing pension plans in Germany. NodeJS, React Native, Expo, Sass, MySQL."
     },
     "remoryoMobileApp": {
       "title": "Remoryo Mobile App",
-      "description": "A mobile app for memory training."
+      "description": "A mobile app designed to enhance communication with elderly loved ones by generating and sending monthly printed magazines. Built with React-Native, Expo, styled-components, PuppeteerHTMLPDF, MySQL, Stripe, and push notifications."
     },
     "leoLeo": {
       "title": "Leo Leo",
-      "description": "A web and mobile application for language learning."
+      "description": "A web application (and PWA) designed to manage participants and organize a yearly Spanish reading contest for German schools. Since 2019. React, Express, CSS3, MongoDB."
     },
     "theCirculArtStatistics": {
       "title": "The CirculArt Statistics",
-      "description": "A web application for visualizing statistics."
+      "description": "An engaging web application designed to visualize client statistics for theCirculArt, a company that provides innovative circular economy solutions for enterprises in the financial sector."
     },
     "sweetTextAIGenerator": {
       "title": "Sweet Text AI Generator",
-      "description": "A web application for generating text using AI."
+      "description": "A web application designed to generate sweet text messages using AI. React, Express, CSS3, chat-GPT3."
     },
     "foodOrderingAndDeliveryApp": {
       "title": "Food Ordering and Delivery App",
-      "description": "A mobile app for ordering and delivering food."
+      "description": "A mobile app designed to order and deliver food, based on the NotJustDev tutorial by Vadim Savin. React Native, Expo, Supabase, stripe, push-notifications."
     },
     "apiRESTful": {
       "title": "API RESTful",
-      "description": "A RESTful API for various services."
+      "description": "A robust and scalable RESTful API designed to provide seamless integration and efficient data management for a variety of services. Built with Node.js, Express, and MongoDB, it ensures high performance and reliability."
     }
   },
   "ContactSection": {
@@ -90,21 +94,25 @@
       "title": "Skills",
       "node": "Node.js",
       "jsTs": "JavaScript/TypeScript",
+      "next": "NextJS",
       "react": "React",
+      "react-native": "React Native",
+      "expo": "Expo",
+      "mongo": "MongoDB",
       "supabase": "Supabase"
     },
     "education": {
       "title": "Education",
-      "fullStack": "Full Stack Developer",
-      "advancedJs": "Advanced JavaScript",
+      "fullStack": "JavaScript Full Stack Developer",
+      "advancedJs": "Advanced programming with JavaScript and ECMAScript",
       "seniorWeb": "Senior Web Developer"
     },
     "certifications": {
       "title": "Certifications",
-      "fullStack": "Full Stack Certification",
-      "advancedJs": "Advanced JavaScript Certification",
-      "jira": "Jira Certification",
-      "confluence": "Confluence Certification"
+      "fullStack": "JavaScript Full Stack",
+      "advancedJs": "Advanced programming with JavaScript and ECMAScript",
+      "jira": "Jira",
+      "confluence": "Confluence"
     },
     "languages": {
       "title": "Languages",
@@ -114,7 +122,7 @@
       "english": "English, C1",
       "french": "French, B1",
       "italian": "Italian, B2",
-      "portuguese": "Portuguese, A1"
+      "portuguese": "Portuguese, A1 (ongoing)"
     }
   },
   "ToastMessages": {

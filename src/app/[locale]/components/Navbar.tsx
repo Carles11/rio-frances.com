@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90">
-      <div className="flex container lg:py-4 flex-wrap items-center justify-around mx-auto px-4">
+      <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4">
         <Link href={'/'}>
           <Image
             src="/images/cdrio-desarrollador-log_white+.svg"
@@ -23,8 +23,8 @@ const Navbar = () => {
             height={50}
           />
         </Link>
-        <div className="flex items-right">
-          <div className="mobile-menu block md:hidden">
+        <div className="flex flex-col md:flex-row items-end items-right">
+          <div className="mobile-menu block md:hidden mb-2">
             {!navbarOpen ? (
               <button
                 onClick={() => setNavbarOpen(true)}

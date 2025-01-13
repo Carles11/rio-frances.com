@@ -36,43 +36,46 @@
     "web": "Web",
     "mobile": "Móvil"
   },
-
   "Projects": {
     "webDevelopmentPortfolioWebsite": {
       "title": "Sitio Web de Portafolio de Desarrollo Web",
-      "description": "Un sitio web de portafolio que muestra proyectos de desarrollo web."
+      "description": "Un sitio web de portafolio que destaca mis proyectos de desarrollo web y móvil. Construido con NextJS, React, TypeScript y TailwindCSS."
     },
     "graphicDesignPortfolioWebsite": {
       "title": "Sitio Web de Portafolio de Diseño Gráfico",
-      "description": "Un sitio web de portafolio que muestra proyectos de diseño gráfico."
+      "description": "Un sitio web de portafolio que muestra mis proyectos de diseño gráfico. Construido con React, Express y CSS3."
+    },
+    "myPensionWebApp": {
+      "title": "Aplicación Web de Mi Pensión",
+      "description": "Una aplicación web y portal de clientes para gestionar planes de pensiones. Construido con NodeJS, React, Express, Sass, Bootstrap y MySQL."
     },
     "myPensionMobileApp": {
-      "title": "Aplicación Móvil My Pension",
-      "description": "Una aplicación móvil para gestionar planes de pensiones."
+      "title": "Aplicación Móvil de Mi Pensión",
+      "description": "Una aplicación móvil para gestionar planes de pensiones en Alemania. NodeJS, React Native, Expo, Sass, MySQL."
     },
     "remoryoMobileApp": {
       "title": "Aplicación Móvil Remoryo",
-      "description": "Una aplicación móvil para el entrenamiento de la memoria."
+      "description": "Una aplicación móvil diseñada para mejorar la comunicación con seres queridos mayores generando y enviando revistas impresas mensuales. Construido con React-Native, Expo, styled-components, PuppeteerHTMLPDF, MySQL, Stripe y notificaciones push."
     },
     "leoLeo": {
       "title": "Leo Leo",
-      "description": "Una aplicación web y móvil para el aprendizaje de idiomas."
+      "description": "Una aplicación web (y PWA) diseñada para gestionar participantes y organizar un concurso anual de lectura en español para escuelas alemanas. Desde 2019. React, Express, CSS3, MongoDB."
     },
     "theCirculArtStatistics": {
       "title": "Las Estadísticas de CirculArt",
-      "description": "Una aplicación web para visualizar estadísticas."
+      "description": "Una aplicación web atractiva diseñada para visualizar estadísticas de clientes para theCirculArt, una empresa que proporciona soluciones innovadoras de economía circular para empresas del sector financiero."
     },
     "sweetTextAIGenerator": {
-      "title": "Generador de Texto AI Sweet",
-      "description": "Una aplicación web para generar texto usando AI."
+      "title": "Generador de Textos Dulces con IA",
+      "description": "Una aplicación web diseñada para generar mensajes de texto dulces usando IA. React, Express, CSS3, chat-GPT3."
     },
     "foodOrderingAndDeliveryApp": {
       "title": "Aplicación de Pedido y Entrega de Comida",
-      "description": "Una aplicación móvil para pedir y entregar comida."
+      "description": "Una aplicación móvil diseñada para pedir y entregar comida, basada en el tutorial de NotJustDev por Vadim Savin. React Native, Expo, Supabase, stripe, notificaciones push."
     },
     "apiRESTful": {
       "title": "API RESTful",
-      "description": "Una API RESTful para varios servicios."
+      "description": "Una API RESTful robusta y escalable diseñada para proporcionar integración sin problemas y gestión eficiente de datos para una variedad de servicios. Construido con Node.js, Express y MongoDB, asegura alto rendimiento y fiabilidad."
     }
   },
   "ContactSection": {
@@ -91,21 +94,25 @@
       "title": "Habilidades",
       "node": "Node.js",
       "jsTs": "JavaScript/TypeScript",
+      "next": "NextJS",
       "react": "React",
+      "react-native": "React Native",
+      "expo": "Expo",
+      "mongo": "MongoDB",
       "supabase": "Supabase"
     },
     "education": {
       "title": "Formación",
-      "fullStack": "Desarrollador Full Stack",
-      "advancedJs": "JavaScript Avanzado",
+      "fullStack": "Desarrollador JavaScript Full Stack",
+      "advancedJs": "Programación avanzada con JavaScript y ECMAScript",
       "seniorWeb": "Desarrollador Web Senior"
     },
     "certifications": {
       "title": "Certificaciones",
-      "fullStack": "Certificación Full Stack",
-      "advancedJs": "Certificación JavaScript Avanzado",
-      "jira": "Certificación Jira",
-      "confluence": "Certificación Confluence"
+      "fullStack": "Full Stack",
+      "advancedJs": "Programación avanzada con JavaScript y ECMAScript",
+      "jira": "Jira",
+      "confluence": "Confluence"
     },
     "languages": {
       "title": "Idiomas",
@@ -115,7 +122,7 @@
       "english": "Inglés, C1",
       "french": "Francés, B1",
       "italian": "Italiano, B2",
-      "portuguese": "Portugués, A1"
+      "portuguese": "Portugués, A1 (en curso)"
     }
   },
   "ToastMessages": {

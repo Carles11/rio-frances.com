@@ -12,7 +12,11 @@ export const useTabData = (): TabData[] => {
         <ul className="list-disc pl-2">
           <li>• {t('skills.node')}</li>
           <li>• {t('skills.jsTs')}</li>
+          <li>• {t('skills.next')}</li>
           <li>• {t('skills.react')}</li>
+          <li>• {t('skills.react-native')}</li>
+          <li>• {t('skills.expo')}</li>
+          <li>• {t('skills.mongo')}</li>
           <li>• {t('skills.supabase')}</li>
         </ul>
       ),
