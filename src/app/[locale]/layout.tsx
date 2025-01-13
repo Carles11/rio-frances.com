@@ -32,7 +32,7 @@ export default async function RootLayout({
   return (
     <>
       <Head>
-        <title>Your Site Title</title>
+        <title>Portfolio website of Carles del Río Francés</title>
         <meta name="description" content="Your site description" />
         <link rel="icon" href="/favicons/favicon.ico" />
 
