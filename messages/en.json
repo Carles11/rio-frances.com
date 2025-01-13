@@ -138,7 +138,7 @@
     "warningMessage": "Please be cautious about the following warning.",
     "warningTitle": "Warning",
     "privateRepoMessage": "This repository is private. {title}",
-    "retryErrorMessage": "Please try again: (error ${error.status}, ${error.text})",
-    "emailSentMessage": "{result.text} Your email has been sent successfully."
+    "retryErrorMessage": "Please try again: (error ${status}, ${text})",
+    "emailSentMessage": "{text}! Your email has been sent successfully."
   }
 }

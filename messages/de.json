@@ -137,7 +137,7 @@
     "warningMessage": "Bitte sei vorsichtig bei der folgenden Warnung.",
     "warningTitle": "Warnung",
     "privateRepoMessage": "Dieses Repository ist privat. {title}",
-    "retryErrorMessage": "Bitte versuche es erneut: (Fehler ${error.status}, ${error.text})",
-    "emailSentMessage": "{result.text} Deine E-Mail wurde erfolgreich gesendet."
+    "retryErrorMessage": "Bitte versuche es erneut: (Fehler ${status}, ${text})",
+    "emailSentMessage": "{text}! Deine E-Mail wurde erfolgreich gesendet."
   }
 }

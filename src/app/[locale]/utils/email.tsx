@@ -25,13 +25,15 @@ const useEmailSend = () => {
     const templateID = 'template_rvgqsba'
     init('user_5HJvI2zi5tRGkdRn7cAvt')
     console.log({ serviceID, templateID, data })
+
     emailjs
       .send(serviceID, templateID, data as unknown as Record<string, unknown>)
       .then(
         (result: EmailSendResult) => {
+          const text = result.text
           Swal.fire({
             title: tToast('successTitle'),
-            text: `${result.text} ${tToast('emailSentMessage')}`,
+            text: tToast('emailSentMessage', { text }),
             icon: 'success',
             showConfirmButton: false,
             showCancelButton: true,
@@ -41,11 +43,15 @@ const useEmailSend = () => {
         },
         (error: EmailSendError) => {
           console.log({ error })
+          const status = error.text
+          const text = error.text
+
           Swal.fire({
             title: tToast('errorTitle'),
-            text: `${tToast('retryErrorMessage')} (error ${error.status}, ${
-              error.text
-            })`,
+            text: tToast('retryErrorMessage', {
+              status: status,
+              text: text,
+            }),
             icon: 'error',
             showConfirmButton: false,
             showCancelButton: true,
