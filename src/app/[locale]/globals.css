@@ -30,13 +30,14 @@ body {
   background-color: transparent;
   border-radius: 0.25rem; /* Tailwind rounded-sm */
 }
+
 .custom-select:hover {
   border: 2px solid #e2e8f0;
 }
 
 /* Target the dropdown options */
 .custom-select option {
-  background-color: transparent; /* Tailwind color red-700 */
+  background-color: transparent;
   border-radius: 1.375rem; /* 22px */
   color: #141414; /* Custom text color */
 }

@@ -51,7 +51,7 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
-          <div className="ml-6">
+          <div className="ml-6 text-orange-500">
             <LocaleSwitcher />
           </div>
         </div>
