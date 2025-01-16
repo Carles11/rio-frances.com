@@ -134,7 +134,7 @@ export const useTabData = (): TabData[] => {
           <li>{t('languages.english')}</li>
           <li>{t('languages.french')}</li>
           <li>{t('languages.italian')}</li>
-          <li>{t('languages.portuguese')}</li>
+          {/* <li>{t('languages.portuguese')}</li> */}
         </ul>
       ),
     },
