@@ -1,5 +1,6 @@
 'use client'
 
+import { useEffect, useRef } from 'react'
 import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import { ProjectCardProps } from '@/types'
@@ -15,12 +16,41 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   previewUrl,
 }) => {
   const tToast = useTranslations('ToastMessages')
+  const imgRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            if (imgRef.current) {
+              imgRef.current.style.backgroundImage = `url(${imgUrl})`
+            }
+            observer.unobserve(entry.target)
+          }
+        })
+      },
+      { threshold: 0.1 },
+    )
+
+    const currentImgRef = imgRef.current
+    if (currentImgRef) {
+      observer.observe(currentImgRef)
+    }
+
+    return () => {
+      if (currentImgRef) {
+        observer.unobserve(currentImgRef)
+      }
+    }
+  }, [imgUrl])
 
   return (
     <div>
       <div
+        ref={imgRef}
         className="h-52 md:h-72 rounded-t-xl relative group"
-        style={{ background: `url(${imgUrl})`, backgroundSize: 'cover' }}
+        style={{ backgroundSize: 'cover' }}
       >
         <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
           {ident === 3 || ident === 4 || ident === 5 ? (
