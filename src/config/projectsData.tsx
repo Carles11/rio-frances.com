@@ -35,7 +35,7 @@ export const useProjectsData = () => {
       id: 4,
       title: t('myPensionMobileApp.title'),
       description: t('myPensionMobileApp.description'),
-      image: '/images/projects/mypension-de-low.jpg',
+      image: '/images/projects/mypension-de-low.webp',
       tag: ['all', 'mobile'],
       gitUrl: '/',
       previewUrl:
