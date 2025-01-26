@@ -32,7 +32,7 @@ const MetaTags = ({ messages }: { messages: MainPageMessages }) => (
       property="og:description"
       content="Portfolio website of Carles del Río Francés as Web and mobile developer"
     />
-    <meta property="og:image" content="/images/carles-in-ids.png" />
+    <meta property="og:image" content="/images/carles-in-ids.webp" />
     <meta property="og:url" content="https://www.rio-frances.com" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -41,7 +41,7 @@ const MetaTags = ({ messages }: { messages: MainPageMessages }) => (
       name="twitter:description"
       content="Portfolio website of Carles del Río Francés as Web and mobile developer"
     />
-    <meta name="twitter:image" content="/images/carles-in-ids.png" />
+    <meta name="twitter:image" content="/images/carles-in-ids.webp" />
     <link rel="canonical" href="https://www.rio-frances.com" />
     <link rel="icon" href="/favicon.ico" />
     <link
