@@ -26,7 +26,7 @@ export default function LocaleSwitcherSelect({ defaultValue }: Props) {
 
   return (
     <div>
-      {/* <label htmlFor="locale-switcher">{label}</label> */}
+      <label htmlFor="locale-switcher" />
       <select
         id="locale-switcher"
         defaultValue={defaultValue}
