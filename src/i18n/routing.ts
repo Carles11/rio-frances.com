@@ -12,7 +12,7 @@ export const routing = defineRouting({
   pathnames: {
     '/#about': {
       en: '/#about',
-      de: '/#uber-mich',
+      de: '/#ueber-mich',
       es: '/#sobre-mi',
     },
     '/#projects': {

@@ -1,5 +1,6 @@
 'use client'
 
+import { useMemo } from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
@@ -26,16 +27,19 @@ const HeroSection = () => {
             </span>
             <br></br>
             <TypeAnimation
-              sequence={[
-                'Carles',
-                1000,
-                t('greeting-slide-1'),
-                1000,
-                t('greeting-slide-2'),
-                1000,
-                t('greeting-slide-3'),
-                1000,
-              ]}
+              sequence={useMemo(
+                () => [
+                  'Carles',
+                  1000,
+                  t('greeting-slide-1'),
+                  1000,
+                  t('greeting-slide-2'),
+                  1000,
+                  t('greeting-slide-3'),
+                  1000,
+                ],
+                [t],
+              )}
               wrapper="span"
               speed={50}
               repeat={Infinity}
@@ -75,6 +79,7 @@ const HeroSection = () => {
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
               height={300}
+              priority
             />
           </div>
         </motion.div>
