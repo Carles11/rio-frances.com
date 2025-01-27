@@ -22,6 +22,7 @@ const Navbar = () => {
             alt="Logo"
             width={150}
             height={50}
+            loading="lazy"
           />
         </Link>
         <div className="flex flex-col md:flex-row items-end items-right">
