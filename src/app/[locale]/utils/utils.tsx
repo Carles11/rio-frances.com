@@ -7,12 +7,8 @@ export const getExperienceYears = () => {
     myCodingStartingDate.getFullYear() +
     (currentDate.getMonth() - myCodingStartingDate.getMonth()) / 12
 
-  const roundedYears = Math.round(yearsOfExperience)
-
-  const realYears =
-    yearsOfExperience < roundedYears ? roundedYears - 1 : roundedYears
-
-  const postFix = realYears < roundedYears ? '+' : ''
+  const realYears = Math.floor(yearsOfExperience)
+  const postFix = yearsOfExperience > realYears ? '+' : ''
 
   return { years: realYears, postfix: postFix }
 }

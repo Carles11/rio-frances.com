@@ -30,6 +30,7 @@ const AchievementsSection = () => {
               <h2 className="text-white text-4xl font-bold flex flex-row">
                 {achievement.prefix}
                 <AnimatedNumbers
+                  key={achievement.id}
                   includeComma
                   animateToNumber={achievement.value}
                   locale="en-US"

@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import GithubIcon from '../../../../public/github-icon.svg'
 import LinkedinIcon from '../../../../public/linkedin-icon.svg'
 import Link from 'next/link'
@@ -17,6 +17,11 @@ const EmailSection = () => {
   const [email, setEmail] = useState('')
   const [subject, setSubject] = useState('')
   const [message, setMessage] = useState('')
+  const [isClient, setIsClient] = useState(false)
+
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
 
   const handleSubmit = async (
     e: React.FormEvent<HTMLFormElement>,
@@ -66,6 +71,17 @@ const EmailSection = () => {
       <div>
         <form className="flex flex-col" onSubmit={handleSubmit}>
           <div className="mb-6">
+            {isClient && (
+              <div
+                data-lastpass-icon-root=""
+                style={{
+                  position: 'relative',
+                  height: '0px',
+                  width: '0px',
+                  float: 'left',
+                }}
+              />
+            )}
             <label
               htmlFor="email"
               className="text-white block mb-2 text-sm font-medium"

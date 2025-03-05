@@ -6,6 +6,7 @@ import { notFound } from 'next/navigation'
 import { Locale, routing } from '@/i18n/routing'
 import Head from 'next/head'
 import React from 'react'
+import { Analytics } from '@vercel/analytics/react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -87,6 +88,7 @@ export default async function RootLayout({
         <body className={inter.className}>
           <NextIntlClientProvider messages={messages}>
             {children}
+            <Analytics />
           </NextIntlClientProvider>
         </body>
       </html>
