@@ -60,8 +60,8 @@
       "description": "A mobile app designed to enhance communication with elderly loved ones by generating and sending monthly printed magazines. Built with React-Native, Expo, styled-components, Zustand, PuppeteerHTMLPDF, MySQL, Stripe and push notifications."
     },
     "leoLeo": {
-      "title": "Leo Leo",
-      "description": "A web application (and PWA) designed to manage participants and organize a yearly Spanish reading contest for German schools. Since 2019. React, Express, CSS3, MongoDB. Admin panel."
+      "title": "Leo, leo... ¿Qué lees? (PWA)",
+      "description": "A web application designed to manage participants and organize a yearly Spanish reading contest for German schools. Since 2019. React, Express, CSS3, MongoDB. Admin panel."
     },
     "theCirculArtStatistics": {
       "title": "The CirculArt Statistics",
@@ -78,6 +78,10 @@
     "apiRESTful": {
       "title": "API RESTful",
       "description": "A robust and scalable RESTful API designed to provide seamless integration and efficient data management for a variety of services. Built with Node.js, Express and MongoDB. It ensures high performance and reliability."
+    },
+    "mosaic": {
+      "title": "Mosaic.photography (PWA)",
+      "description": "A full-stack project showcasing a gallery with the works of iconic photographers as well as a list of those photographers with data about them. Created with NextJS v15+, TypeScript, CSS3, Supabase, Vercel, and S3."
     }
   },
   "ContactSection": {

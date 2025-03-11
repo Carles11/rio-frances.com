@@ -5,6 +5,15 @@ export const useProjectsData = () => {
 
   return [
     {
+      id: 0,
+      title: t('mosaic.title'),
+      description: t('mosaic.description'),
+      image: '/images/projects/mosaic-mockup.webp',
+      tag: ['all', 'web', 'mobile'],
+      gitUrl: 'https://github.com/Carles11/mosaic-photography',
+      previewUrl: 'https://www.mosaic.photography',
+    },
+    {
       id: 1,
       title: t('webDevelopmentPortfolioWebsite.title'),
       description: t('webDevelopmentPortfolioWebsite.description'),
