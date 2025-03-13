@@ -6,15 +6,6 @@ export const useProjectsData = () => {
   return [
     {
       id: 0,
-      title: t('mosaic.title'),
-      description: t('mosaic.description'),
-      image: '/images/projects/mosaic-mockup.webp',
-      tag: ['all', 'web', 'mobile'],
-      gitUrl: 'https://github.com/Carles11/mosaic-photography',
-      previewUrl: 'https://www.mosaic.photography',
-    },
-    {
-      id: 1,
       title: t('webDevelopmentPortfolioWebsite.title'),
       description: t('webDevelopmentPortfolioWebsite.description'),
       image: '/images/projects/rio-frances-web.webp',
@@ -23,13 +14,22 @@ export const useProjectsData = () => {
       previewUrl: 'https://www.rio-frances.com',
     },
     {
-      id: 2,
+      id: 1,
       title: t('graphicDesignPortfolioWebsite.title'),
       description: t('graphicDesignPortfolioWebsite.description'),
       image: '/images/projects/crix-design-low.webp',
       tag: ['all', 'web'],
       gitUrl: 'https://github.com/Carles11/crix',
       previewUrl: 'https://www.crix.design',
+    },
+    {
+      id: 2,
+      title: t('mosaic.title'),
+      description: t('mosaic.description'),
+      image: '/images/projects/mosaic-mockup.webp',
+      tag: ['all', 'web', 'mobile'],
+      gitUrl: 'https://github.com/Carles11/mosaic-photography',
+      previewUrl: 'https://www.mosaic.photography',
     },
     {
       id: 3,
