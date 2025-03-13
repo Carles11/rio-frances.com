@@ -7,11 +7,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
   // Ensure that a valid locale is used
   if (!locale || !routing.locales.includes(locale as Locale)) {
-    locale = routing.defaultLocale
+    locale = routing.defaultLocale // Fallback to default locale if invalid
   }
 
   return {
     locale,
-    messages: (await import(`../../messages/${locale}.json`)).default,
+    messages: (await import(`../../messages/${locale}.json`)).default, // Import locale-specific messages
   }
 })
