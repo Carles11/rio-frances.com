@@ -24,7 +24,7 @@ const useEmailSend = () => {
     const serviceID = 'service_1xubnpl'
     const templateID = 'template_rvgqsba'
     init('user_5HJvI2zi5tRGkdRn7cAvt')
-    console.log({ serviceID, templateID, data })
+    // console.log({ serviceID, templateID, data })
 
     emailjs
       .send(serviceID, templateID, data as unknown as Record<string, unknown>)
