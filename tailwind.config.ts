@@ -19,6 +19,11 @@ module.exports = {
       ...colors,
       primary: colors.orange,
       secondary: colors.red,
+      sky: colors.sky, // Updated from lightBlue
+      stone: colors.stone, // Updated from warmGray
+      neutral: colors.neutral, // Updated from trueGray
+      gray: colors.gray, // Updated from coolGray
+      slate: colors.slate, // Updated from blueGray
     },
   },
   plugins: [],
