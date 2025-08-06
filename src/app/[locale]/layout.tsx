@@ -4,67 +4,63 @@ import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { Locale, routing } from '@/i18n/routing'
-import Head from 'next/head'
 import React from 'react'
 import { Analytics } from '@vercel/analytics/react'
+import type { Metadata } from 'next'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Carles del Río Developer',
-  description: 'Carles` del Río Portfolio',
-}
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  const messages = await getMessages()
+  const mainPageMessages = (messages as any).MainPage
 
-interface MainPageMessages {
-  title: string
-  description: string
+  return {
+    title: mainPageMessages?.title || 'Carles del Río Developer',
+    description: mainPageMessages?.description || 'Carles del Río Portfolio',
+    keywords:
+      'Carles del Río Francés, Web Developer, Mobile Developer, Portfolio',
+    openGraph: {
+      title: 'Carles del Río Francés',
+      description:
+        'Portfolio website of Carles del Río Francés as Web and mobile developer',
+      images: ['/images/carles-in-ids.webp'],
+      url: 'https://www.rio-frances.com',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Carles del Río Francés',
+      description:
+        'Portfolio website of Carles del Río Francés as Web and mobile developer',
+      images: ['/images/carles-in-ids.webp'],
+    },
+    alternates: {
+      canonical: 'https://www.rio-frances.com',
+    },
+    icons: {
+      icon: [
+        { url: '/favicon.ico' },
+        {
+          url: '/favicons/favicon-16x16.png',
+          sizes: '16x16',
+          type: 'image/png',
+        },
+        {
+          url: '/favicons/favicon-32x32.png',
+          sizes: '32x32',
+          type: 'image/png',
+        },
+      ],
+      apple: { url: '/favicons/apple-touch-icon.png', sizes: '180x180' },
+    },
+    manifest: '/favicons/site.webmanifest',
+  }
 }
-
-const MetaTags = ({ messages }: { messages: MainPageMessages }) => (
-  <Head>
-    <title>{messages.title}</title>
-    <meta name="description" content={messages.description} />
-    <meta
-      name="keywords"
-      content="Carles del Río Francés, Web Developer, Mobile Developer, Portfolio"
-    />
-    <meta property="og:title" content="Carles del Río Francés" />
-    <meta
-      property="og:description"
-      content="Portfolio website of Carles del Río Francés as Web and mobile developer"
-    />
-    <meta property="og:image" content="/images/carles-in-ids.webp" />
-    <meta property="og:url" content="https://www.rio-frances.com" />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Carles del Río Francés" />
-    <meta
-      name="twitter:description"
-      content="Portfolio website of Carles del Río Francés as Web and mobile developer"
-    />
-    <meta name="twitter:image" content="/images/carles-in-ids.webp" />
-    <link rel="canonical" href="https://www.rio-frances.com" />
-    <link rel="icon" href="/favicon.ico" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/favicons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/favicons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/favicons/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/favicons/site.webmanifest" />
-  </Head>
-)
 
 export default async function RootLayout({
   children,
@@ -82,16 +78,13 @@ export default async function RootLayout({
   // Providing all messages to the client
   const messages = await getMessages()
   return (
-    <React.Fragment>
-      <MetaTags messages={messages as unknown as MainPageMessages} />
-      <html lang={locale}>
-        <body className={inter.className}>
-          <NextIntlClientProvider messages={messages}>
-            {children}
-            <Analytics />
-          </NextIntlClientProvider>
-        </body>
-      </html>
-    </React.Fragment>
+    <html lang={locale}>
+      <body className={inter.className}>
+        <NextIntlClientProvider messages={messages}>
+          {children}
+          <Analytics />
+        </NextIntlClientProvider>
+      </body>
+    </html>
   )
 }

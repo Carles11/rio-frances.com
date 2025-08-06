@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 import colors from 'tailwindcss/colors'
 
+// Remove deprecated colors to avoid warnings
+const { lightBlue, warmGray, trueGray, coolGray, blueGray, ...validColors } =
+  colors
+
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -16,14 +20,9 @@ module.exports = {
       },
     },
     colors: {
-      ...colors,
+      ...validColors,
       primary: colors.orange,
       secondary: colors.red,
-      sky: colors.sky, // Updated from lightBlue
-      stone: colors.stone, // Updated from warmGray
-      neutral: colors.neutral, // Updated from trueGray
-      gray: colors.gray, // Updated from coolGray
-      slate: colors.slate, // Updated from blueGray
     },
   },
   plugins: [],
