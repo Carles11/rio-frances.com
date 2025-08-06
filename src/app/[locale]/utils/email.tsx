@@ -21,7 +21,8 @@ const useEmailSend = () => {
   const tToast = useTranslations('ToastMessages')
 
   const emailSend = (data: EmailData, resetForm: () => void): void => {
-    const serviceID = 'service_1xubnpl'
+    // using EMAILJS rio-frances - SMTP service
+    const serviceID = 'service_p4gfq9k'
     const templateID = 'template_rvgqsba'
     init('user_5HJvI2zi5tRGkdRn7cAvt')
     // console.log({ serviceID, templateID, data })

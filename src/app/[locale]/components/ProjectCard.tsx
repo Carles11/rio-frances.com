@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import { ProjectCardProps } from '@/types'
@@ -17,6 +17,33 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   const tToast = useTranslations('ToastMessages')
   const imgRef = useRef<HTMLDivElement>(null)
+  const [isExpanded, setIsExpanded] = useState(false)
+  const [shouldTruncate, setShouldTruncate] = useState(false)
+  const descriptionRef = useRef<HTMLParagraphElement>(null)
+
+  // Check if description needs truncation
+  useEffect(() => {
+    if (descriptionRef.current) {
+      const lineHeight = parseInt(
+        getComputedStyle(descriptionRef.current).lineHeight,
+      )
+      const maxHeight = lineHeight * 3 // 3 lines
+      setShouldTruncate(descriptionRef.current.scrollHeight > maxHeight)
+    }
+  }, [description])
+
+  const handleDescriptionClick = () => {
+    if (shouldTruncate) {
+      setIsExpanded(!isExpanded)
+    }
+  }
+
+  const handleDescriptionBlur = (e: React.FocusEvent) => {
+    // Only collapse if the focus is moving outside the description area
+    if (!e.currentTarget.contains(e.relatedTarget as Node)) {
+      setIsExpanded(false)
+    }
+  }
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -89,7 +116,36 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       </div>
       <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
-        <p className="text-[#ADB7BE]">{description}</p>
+        <div className="relative" onBlur={handleDescriptionBlur} tabIndex={0}>
+          <p
+            ref={descriptionRef}
+            className={`text-[#ADB7BE] transition-all duration-300 project-description ${
+              shouldTruncate && !isExpanded
+                ? 'text-clamp-3 cursor-pointer hover:text-white'
+                : 'expanded'
+            }`}
+            onClick={handleDescriptionClick}
+          >
+            {description}
+          </p>
+          {/* {shouldTruncate && !isExpanded && (
+            <div className="absolute bottom-0 right-0 read-more-gradient pl-4">
+              <span className="text-blue-400 text-sm cursor-pointer hover:text-blue-300 font-medium">
+                ...read more
+              </span>
+            </div>
+          )} */}
+          {shouldTruncate && isExpanded && (
+            <div className="mt-2">
+              <span
+                className="text-blue-400 text-sm cursor-pointer hover:text-blue-300 font-medium"
+                onClick={handleDescriptionClick}
+              >
+                show less
+              </span>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   )

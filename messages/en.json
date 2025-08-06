@@ -81,7 +81,7 @@
     },
     "mosaic": {
       "title": "Mosaic.photography (PWA)",
-      "description": "A full-stack project showcasing a gallery with the works of iconic photographers as well as a list of those photographers with data about them. Created with NextJS v15+, TypeScript, CSS3, Supabase, Vercel, and S3."
+      "description": "Design and development of a full-stack web and PWA application (Next.js 15+, TypeScript, CSS3, Supabase, AWS S3 with CloudFront CDN and Vercel for deployment). Mosaic is a curated gallery showcasing the public domain works of iconic nude photographers, designed with a focus on web performance and SEO optimization (optimized for Google Core Web Vitals and search engine rankings) to ensure fast load times and high search engine visibility."
     }
   },
   "ContactSection": {
