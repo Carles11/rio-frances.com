@@ -31,10 +31,14 @@ const AchievementsSection = () => {
                 {achievement.prefix}
                 <AnimatedNumbers
                   key={achievement.id}
-                  includeComma
                   animateToNumber={achievement.value}
-                  locale="en-US"
-                  className="text-white text-4xl font-bold"
+                  fontStyle={{
+                    fontSize: 40,
+                    color: 'white',
+                  }}
+                  configs={{
+                    includeComma: true,
+                  }}
                 />
                 {achievement.postfix}
               </h2>
