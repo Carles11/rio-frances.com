@@ -15,9 +15,9 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string }>
 }): Promise<Metadata> {
-  const { locale } = await params
+  const { locale: _locale } = await params
   const messages = await getMessages()
-  const mainPageMessages = (messages as any).MainPage
+  const mainPageMessages = (messages as Record<string, any>).MainPage
 
   return {
     title: mainPageMessages?.title || 'Carles del Río Developer',

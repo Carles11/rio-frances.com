@@ -36,9 +36,6 @@ const AchievementsSection = () => {
                     fontSize: 40,
                     color: 'white',
                   }}
-                  configs={{
-                    includeComma: true,
-                  }}
                 />
                 {achievement.postfix}
               </h2>
