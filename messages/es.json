@@ -137,6 +137,83 @@
     "rights": "Todos los derechos reservados.",
     "no-cookies": "Este sitio web no utiliza cookies ni tecnologías de rastreo similares."
   },
+  "FAQ": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Obtén respuestas a preguntas comunes sobre desarrollo web, aplicaciones móviles y servicios SEO.",
+    "categories": {
+      "all": "Todas",
+      "services": "Servicios",
+      "mobile": "Móvil",
+      "seo": "SEO",
+      "freelance": "Freelance"
+    },
+    "question1": {
+      "q": "¿Qué servicios de desarrollo web ofreces?",
+      "a": "Me especializo en desarrollo web moderno usando React, Next.js, TypeScript y TailwindCSS. Construyo sitios web responsivos, aplicaciones web, plataformas de e-commerce y proporciono servicios integrales de optimización SEO para mejorar tu visibilidad online."
+    },
+    "question2": {
+      "q": "¿Desarrollas aplicaciones móviles para iOS y Android?",
+      "a": "¡Sí! Desarrollo aplicaciones móviles multiplataforma usando React Native con Expo. Esto me permite crear aplicaciones de alta calidad que funcionan perfectamente en dispositivos iOS y Android manteniendo el rendimiento nativo y la experiencia de usuario."
+    },
+    "question3": {
+      "q": "¿Cómo puede ayudar la optimización SEO a mi negocio?",
+      "a": "La optimización SEO mejora la visibilidad de tu sitio web en motores de búsqueda como Google, Bing y motores de búsqueda locales en Alemania y Chile. Implemento SEO técnico, optimización de contenido, estrategias de SEO local y AIO (Optimización de Inteligencia Artificial) para ayudarte a posicionarte mejor y atraer más tráfico calificado a tu negocio."
+    },
+    "question4": {
+      "q": "¿Por qué elegir un desarrollador freelance en lugar de una agencia?",
+      "a": "Como desarrollador independiente, ofrezco atención personalizada, precios competitivos, comunicación más rápida y colaboración directa. Trabajas directamente con la persona que construye tu proyecto, asegurando que tu visión sea entendida e implementada exactamente como la necesitas. También soy más flexible con los cronogramas de proyecto y requisitos de presupuesto."
+    },
+    "question5": {
+      "q": "¿Trabajas con clientes en Alemania?",
+      "a": "¡Absolutamente! Tengo amplia experiencia trabajando con clientes alemanes y entiendo los requisitos del mercado local, cumplimiento GDPR, estándares web alemanes y estrategias SEO específicas para el mercado alemán. Hablo alemán con fluidez y estoy familiarizado con las prácticas comerciales alemanas."
+    },
+    "question6": {
+      "q": "¿Puedes ayudar a empresas en Chile con desarrollo web?",
+      "a": "¡Sí! Como hablante nativo de español, proporciono servicios integrales de desarrollo web y SEO a empresas chilenas. Entiendo la dinámica del mercado local, el comportamiento del consumidor chileno y puedo optimizar tu sitio web para motores de búsqueda chilenos y SEO local."
+    },
+    "question7": {
+      "q": "¿Qué hace que React y Next.js sean buenas opciones para mi proyecto?",
+      "a": "React y Next.js son tecnologías líderes en la industria que proporcionan excelente rendimiento, capacidades SEO y escalabilidad. Next.js ofrece renderizado del lado del servidor, optimización automática y características SEO incorporadas que hacen tu sitio web más rápido y amigable para motores de búsqueda. Estas tecnologías también aseguran que tu proyecto sea moderno, mantenible y preparado para el futuro."
+    },
+    "question8": {
+      "q": "¿Trabajas de forma remota o presencial?",
+      "a": "Trabajo principalmente de forma remota, lo que me permite servir a clientes globalmente mientras mantengo costos competitivos. Uso herramientas modernas de colaboración como Slack, Zoom y plataformas de gestión de proyectos para asegurar comunicación fluida. Para clientes en Alemania, puedo organizar reuniones presenciales cuando sea necesario."
+    },
+    "question9": {
+      "q": "¿Cuáles son tus costos típicos de proyecto y estructura de precios?",
+      "a": "Mis precios varían según la complejidad del proyecto, cronograma y requisitos. Ofrezco tarifas competitivas para desarrollo web (€50-80/hora), desarrollo de aplicaciones móviles (€60-90/hora) y servicios SEO (€40-60/hora). También proporciono cotizaciones de precio fijo para proyectos bien definidos. Contáctame para una cotización personalizada."
+    },
+    "question10": {
+      "q": "¿Cuánto tiempo toma un proyecto típico de desarrollo web?",
+      "a": "Los cronogramas de proyecto varían según la complejidad. Un sitio web portfolio simple toma 1-2 semanas, un sitio web empresarial con CMS toma 2-4 semanas, y aplicaciones web complejas pueden tomar 6-12 semanas. Las aplicaciones móviles típicamente requieren 4-8 semanas. Proporciono cronogramas detallados durante la fase de planificación del proyecto."
+    },
+    "question11": {
+      "q": "¿Cuánto cuesta el SEO para pequeñas empresas?",
+      "a": "Los costos de SEO para pequeñas empresas varían según tus necesidades y objetivos. Ofrezco paquetes SEO flexibles desde €300/mes para SEO local básico, €500-800/mes para SEO integral incluyendo optimización de contenido, y €1000+/mes para industrias competitivas. También proporciono auditorías SEO únicas (€200-400) y optimización SEO por proyecto para necesidades específicas."
+    },
+    "question12": {
+      "q": "¿Cuánto tiempo toma ver resultados de SEO?",
+      "a": "El SEO es una inversión a largo plazo. Típicamente comienzas a ver mejoras iniciales en 2-3 meses, con resultados significativos apareciendo después de 4-6 meses de optimización consistente. Para SEO local en Chile, los resultados pueden ser más rápidos (6-12 semanas) debido a menor competencia. Proporciono reportes mensuales para rastrear progreso y ajustar estrategias."
+    },
+    "question13": {
+      "q": "¿Qué es el SEO local y por qué lo necesita mi negocio?",
+      "a": "El SEO local ayuda a que tu negocio aparezca en resultados de búsqueda locales cuando los clientes buscan servicios 'cerca de mí' o en ubicaciones específicas como 'desarrollador web Santiago'. Es crucial para pequeñas empresas ya que el 80% de las búsquedas locales resultan en conversiones. Optimizo tu perfil de Google Business, citas locales e implemento palabras clave basadas en ubicación para aumentar tu visibilidad local."
+    },
+    "question14": {
+      "q": "¿Cuánto cuesta desarrollar una aplicación móvil para mi pequeña empresa?",
+      "a": "Los costos de desarrollo de aplicaciones móviles dependen de la complejidad y características. Una app empresarial simple con funciones básicas cuesta €3,000-6,000, mientras que apps más complejas con funcionalidad avanzada van de €8,000-15,000. Usar React Native me permite crear versiones para iOS y Android simultáneamente, reduciendo costos en 30-40% comparado con desarrollo nativo."
+    },
+    "question15": {
+      "q": "¿Necesito aplicaciones tanto para iOS como Android para mi negocio?",
+      "a": "Depende de tu audiencia objetivo y presupuesto. En Chile, Android domina con ~85% de participación de mercado. Recomiendo comenzar con ambas plataformas usando React Native para rentabilidad, o enfocarse primero en Android si el presupuesto es limitado, especialmente para mercados chilenos."
+    },
+    "question16": {
+      "q": "¿Puedes convertir mi sitio web existente en una aplicación móvil?",
+      "a": "¡Sí! Puedo crear Progressive Web Apps (PWAs) que funcionan como apps nativas o desarrollar aplicaciones móviles híbridas que integran tu contenido web existente. Las PWAs son rentables (€1,500-3,500) y funcionan en todos los dispositivos, mientras que las apps híbridas (€2,500-5,000) ofrecen mejor presencia en app stores y características nativas."
+    },
+    "contactCta": "¿Aún tienes preguntas? ¡Estoy aquí para ayudar!",
+    "contactButton": "Ponte en Contacto"
+  },
   "ToastMessages": {
     "closeButton": "Cerrar",
     "confirmButton": "Aceptar",

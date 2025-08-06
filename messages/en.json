@@ -138,6 +138,83 @@
     "rights": "All rights reserved.",
     "no-cookies": "This website does not use cookies or similar tracking technologies."
   },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers to common questions about web development, mobile apps, and SEO services.",
+    "categories": {
+      "all": "All",
+      "services": "Services",
+      "mobile": "Mobile",
+      "seo": "SEO",
+      "freelance": "Freelance"
+    },
+    "question1": {
+      "q": "What web development services do you offer?",
+      "a": "I specialize in modern web development using React, Next.js, TypeScript, and TailwindCSS. I build responsive websites, web applications, e-commerce platforms, and provide comprehensive SEO optimization services to improve your online visibility."
+    },
+    "question2": {
+      "q": "Do you develop mobile apps for iOS and Android?",
+      "a": "Yes! I develop cross-platform mobile applications using React Native with Expo. This allows me to create high-quality apps that work seamlessly on both iOS and Android devices while maintaining native performance and user experience."
+    },
+    "question3": {
+      "q": "How can SEO optimization help my business?",
+      "a": "SEO optimization improves your website's visibility in search engines like Google, Bing, and local search engines in Germany and Chile. I implement technical SEO, content optimization, local SEO strategies, and AIO (Artificial Intelligence Optimization) to help you rank higher and attract more qualified traffic to your business."
+    },
+    "question4": {
+      "q": "Why choose a freelance developer over an agency?",
+      "a": "As a solo developer, I offer personalized attention, competitive pricing, faster communication, and direct collaboration. You work directly with the person building your project, ensuring your vision is understood and implemented exactly as you need it. I'm also more flexible with project timelines and budget requirements."
+    },
+    "question5": {
+      "q": "Do you work with clients in Germany?",
+      "a": "Absolutely! I have extensive experience working with German clients and understand the local market requirements, GDPR compliance, German web standards, and SEO strategies specific to the German market. I'm fluent in German and familiar with German business practices."
+    },
+    "question6": {
+      "q": "Can you help businesses in Chile with web development?",
+      "a": "Yes! As a native Spanish speaker, I provide comprehensive web development and SEO services to Chilean businesses. I understand the local market dynamics, Chilean consumer behavior, and can optimize your website for Chilean search engines and local SEO."
+    },
+    "question7": {
+      "q": "What makes React and Next.js good choices for my project?",
+      "a": "React and Next.js are industry-leading technologies that provide excellent performance, SEO capabilities, and scalability. Next.js offers server-side rendering, automatic optimization, and built-in SEO features that make your website faster and more search-engine friendly. These technologies also ensure your project is modern, maintainable, and future-proof."
+    },
+    "question8": {
+      "q": "Do you work remotely or on-site?",
+      "a": "I primarily work remotely, which allows me to serve clients globally while keeping costs competitive. I use modern collaboration tools like Slack, Zoom, and project management platforms to ensure seamless communication. For clients in Germany, I can arrange on-site meetings when necessary."
+    },
+    "question9": {
+      "q": "What are your typical project costs and pricing structure?",
+      "a": "My pricing varies based on project complexity, timeline, and requirements. I offer competitive rates for web development (€50-80/hour), mobile app development (€60-90/hour), and SEO services (€40-60/hour). I also provide fixed-price quotes for well-defined projects. Contact me for a personalized quote."
+    },
+    "question10": {
+      "q": "How long does a typical web development project take?",
+      "a": "Project timelines vary based on complexity. A simple portfolio website takes 1-2 weeks, a business website with CMS takes 2-4 weeks, and complex web applications can take 6-12 weeks. Mobile apps typically require 4-8 weeks. I provide detailed timelines during the project planning phase."
+    },
+    "question11": {
+      "q": "How much does SEO cost for small businesses?",
+      "a": "SEO costs for small businesses vary based on your needs and goals. I offer flexible SEO packages starting from €300/month for basic local SEO, €500-800/month for comprehensive SEO including content optimization, and €1000+/month for competitive industries. I also provide one-time SEO audits (€200-400) and project-based SEO optimization for specific needs."
+    },
+    "question12": {
+      "q": "How long does it take to see SEO results?",
+      "a": "SEO is a long-term investment. You typically start seeing initial improvements in 2-3 months, with significant results appearing after 4-6 months of consistent optimization. For local SEO in Germany and Chile, results can be faster (6-12 weeks) due to less competition. I provide monthly reports to track progress and adjust strategies as needed."
+    },
+    "question13": {
+      "q": "What is local SEO and why do I need it for my business?",
+      "a": "Local SEO helps your business appear in local search results when customers search for services 'near me' or in specific locations like 'web developer Berlin' or 'desarrollador web Santiago'. It's crucial for small businesses as 80% of local searches lead to conversions. I optimize your Google Business Profile, local citations, and implement location-based keywords to increase your local visibility."
+    },
+    "question14": {
+      "q": "How much does it cost to develop a mobile app for my small business?",
+      "a": "Mobile app development costs depend on complexity and features. A simple business app with basic features costs €3,000-6,000, while more complex apps with advanced functionality range from €8,000-15,000. Using React Native allows me to create both iOS and Android versions simultaneously, reducing costs by 30-40% compared to native development."
+    },
+    "question15": {
+      "q": "Do I need both iOS and Android apps for my business?",
+      "a": "It depends on your target audience and budget. In Germany, Android has ~65% market share, while iOS has ~35%. In Chile, Android dominates with ~85% market share. I recommend starting with both platforms using React Native for cost-effectiveness, or focusing on Android first if budget is limited, especially for Chilean markets."
+    },
+    "question16": {
+      "q": "Can you convert my existing website into a mobile app?",
+      "a": "Yes! I can create Progressive Web Apps (PWAs) that work like native apps or develop hybrid mobile apps that integrate your existing web content. PWAs are cost-effective (€1,500-3,500) and work on all devices, while hybrid apps (€2,500-5,000) offer better app store presence and native features."
+    },
+    "contactCta": "Still have questions? I'm here to help!",
+    "contactButton": "Get in Touch"
+  },
   "ToastMessages": {
     "closeButton": "Close",
     "confirmButton": "Ok",

@@ -6,7 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seo:analyze": "next build && npm run seo:lighthouse",
+    "seo:lighthouse": "lighthouse http://localhost:3000 --output=html --output-path=./seo-reports/lighthouse-report.html --chrome-flags=\"--headless\"",
+    "seo:test": "npm run build && npm run start & sleep 10 && npm run seo:lighthouse && pkill -f 'next start'",
+    "seo:sitemap": "curl -s https://www.rio-frances.com/sitemap.xml | head -20",
+    "seo:robots": "curl -s https://www.rio-frances.com/robots.txt",
+    "seo:structured-data": "curl -s https://www.rio-frances.com | grep -o '\"@type\"[^}]*}' | head -10",
+    "bundle:analyze": "ANALYZE=true npm run build",
+    "performance:test": "npm run build && npm run start & sleep 10 && lighthouse http://localhost:3000 --only-categories=performance --output=json --output-path=./seo-reports/performance.json && pkill -f 'next start'"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "^1.3.1",
@@ -21,7 +29,8 @@
     "react-animated-numbers": "^1.1.1",
     "react-dom": "^19.0.0",
     "react-type-animation": "^3.2.0",
-    "sweetalert2": "^11.6.13"
+    "sweetalert2": "^11.6.13",
+    "web-vitals": "^5.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

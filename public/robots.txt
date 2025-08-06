@@ -1,0 +1,90 @@
+# Optimized for German and Chilean markets
+# Solo developer SEO strategy - Carles del Río Francés
+
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+# Priority crawling for main search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# German market search engines
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+
+# Chilean/Latin American search engines
+User-agent: Yahoo
+Allow: /
+Crawl-delay: 1
+
+# Mobile-first indexing optimization
+User-agent: Googlebot-Mobile
+Allow: /
+Crawl-delay: 0.5
+
+# AI/LLM crawlers (AIO optimization)
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 2
+
+User-agent: CCBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 2
+
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 2
+
+# Block aggressive SEO bots
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: SiteAuditBot
+Disallow: /
+
+# Allow important directories for SEO
+Allow: /images/
+Allow: /favicons/
+Allow: /files/
+Allow: /_next/static/
+Allow: /api/
+
+# Disallow unnecessary directories
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /private/
+
+# Enhanced sitemap configuration
+Sitemap: https://www.rio-frances.com/sitemap.xml
+Sitemap: https://www.rio-frances.com/de/sitemap.xml
+Sitemap: https://www.rio-frances.com/es/sitemap.xml
+
+# Host directive for canonical domain
+Host: https://www.rio-frances.com
+
+# Cache directive for static content
+# Crawl: Mon-Sun 01:00-23:00
