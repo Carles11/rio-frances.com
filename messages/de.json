@@ -25,7 +25,7 @@
   },
   "AboutSection": {
     "title": "Über mich",
-    "description": "Ich bin ein Front-End-Entwickler, der sich auf Web- und mobile Anwendungen spezialisiert hat. Ich bin leidenschaftlich daran interessiert, interaktive und responsive Erlebnisse mit Technologien wie JavaScript, React, NextJS, React Native mit Expo, Node.js, Express, Jira und Confluence, HTML, CSS und Git zu schaffen. Ich bin immer auf der Suche nach neuen Möglichkeiten, mein Wissen und meine Fähigkeiten zu erweitern.",
+    "description": "Ich bin ein Front-End-Entwickler, der sich auf Web- und mobile Anwendungen mit Expertise in SEO- und AIO-Optimierung spezialisiert hat. Ich bin leidenschaftlich daran interessiert, interaktive und responsive Erlebnisse mit Technologien wie JavaScript, React, NextJS, React Native mit Expo, Node.js, Express, Jira und Confluence, HTML, CSS und Git zu schaffen. Außerdem biete ich umfassende SEO/AIO-Optimierungsdienstleistungen an, um die Sichtbarkeit und Leistung von Websites zu verbessern. Ich bin immer auf der Suche nach neuen Möglichkeiten, mein Wissen und meine Fähigkeiten zu erweitern.",
     "skills": "Fähigkeiten",
     "education": "Bildung",
     "certifications": "Zertifizierungen",
@@ -104,7 +104,9 @@
       "react-native": "React Native",
       "expo": "Expo",
       "mongo": "MongoDB",
-      "supabase": "Supabase"
+      "supabase": "Supabase",
+      "seo": "SEO-Optimierung",
+      "aio": "AIO-Optimierung"
     },
     "education": {
       "title": "Bildung",
