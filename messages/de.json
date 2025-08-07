@@ -139,7 +139,7 @@
   },
   "FAQ": {
     "title": "Häufig gestellte Fragen",
-    "subtitle": "Erhalten Sie Antworten auf häufige Fragen zu Webentwicklung, mobilen Apps und SEO-Dienstleistungen.",
+    "subtitle": "Hier findest du Antworten auf häufige Fragen zu Webentwicklung, mobilen Apps und SEO-Dienstleistungen.",
     "categories": {
       "all": "Alle",
       "services": "Dienstleistungen",
@@ -148,44 +148,44 @@
       "freelance": "Freiberuflich"
     },
     "question1": {
-      "q": "Welche Webentwicklungsdienstleistungen bieten Sie an?",
-      "a": "Ich spezialisiere mich auf moderne Webentwicklung mit React, Next.js, TypeScript und TailwindCSS. Ich erstelle responsive Websites, Webanwendungen, E-Commerce-Plattformen und biete umfassende SEO-Optimierungsdienstleistungen zur Verbesserung Ihrer Online-Sichtbarkeit."
+      "q": "Welche Webentwicklungsdienstleistungen bietest du an?",
+      "a": "Ich spezialisiere mich auf moderne Webentwicklung mit React, Next.js, TypeScript und TailwindCSS. Ich erstelle responsive Websites, Webanwendungen, E-Commerce-Plattformen und biete umfassende SEO-Optimierungsdienstleistungen, um deine Online-Sichtbarkeit zu verbessern."
     },
     "question2": {
-      "q": "Entwickeln Sie mobile Apps für iOS und Android?",
-      "a": "Ja! Ich entwickle plattformübergreifende mobile Anwendungen mit React Native und Expo. Dies ermöglicht es mir, hochwertige Apps zu erstellen, die nahtlos auf iOS- und Android-Geräten funktionieren und dabei native Performance und Benutzererfahrung beibehalten."
+      "q": "Entwickelst du mobile Apps für iOS und Android?",
+      "a": "Ja! Ich entwickle plattformübergreifende mobile Anwendungen mit React Native und Expo. So kann ich hochwertige Apps erstellen, die nahtlos auf iOS- und Android-Geräten funktionieren und dabei native Performance und Benutzererfahrung beibehalten."
     },
     "question3": {
-      "q": "Wie kann SEO-Optimierung meinem Unternehmen helfen?",
-      "a": "SEO-Optimierung verbessert die Sichtbarkeit Ihrer Website in Suchmaschinen wie Google, Bing und lokalen Suchmaschinen in Deutschland. Ich implementiere technisches SEO, Content-Optimierung, lokale SEO-Strategien und AIO (Artificial Intelligence Optimization), um Ihnen zu helfen, höher zu ranken und mehr qualifizierten Traffic zu Ihrem Unternehmen zu bringen."
+      "q": "Wie kann SEO-Optimierung deinem Unternehmen helfen?",
+      "a": "SEO-Optimierung verbessert die Sichtbarkeit deiner Website in Suchmaschinen wie Google, Bing und lokalen Suchmaschinen in Deutschland. Ich implementiere technisches SEO, Content-Optimierung, lokale SEO-Strategien und AIO (Artificial Intelligence Optimization), um dir zu helfen, höher zu ranken und mehr qualifizierten Traffic zu deinem Unternehmen zu bringen."
     },
     "question4": {
-      "q": "Warum einen freiberuflichen Entwickler statt einer Agentur wählen?",
-      "a": "Als Solo-Entwickler biete ich persönliche Betreuung, wettbewerbsfähige Preise, schnellere Kommunikation und direkte Zusammenarbeit. Sie arbeiten direkt mit der Person, die Ihr Projekt erstellt, wodurch sichergestellt wird, dass Ihre Vision verstanden und genau nach Ihren Bedürfnissen umgesetzt wird. Ich bin auch flexibler bei Projektzeitplänen und Budgetanforderungen."
+      "q": "Warum solltest du einen freiberuflichen Entwickler statt einer Agentur wählen?",
+      "a": "Als Solo-Entwickler biete ich persönliche Betreuung, wettbewerbsfähige Preise, schnellere Kommunikation und direkte Zusammenarbeit. Du arbeitest direkt mit der Person, die dein Projekt erstellt, wodurch sichergestellt wird, dass deine Vision verstanden und genau nach deinen Bedürfnissen umgesetzt wird. Ich bin auch flexibler bei Projektzeitplänen und Budgetanforderungen."
     },
     "question5": {
-      "q": "Arbeiten Sie mit Kunden in Deutschland?",
+      "q": "Arbeitest du mit Kunden in Deutschland?",
       "a": "Absolut! Ich habe umfangreiche Erfahrung in der Arbeit mit deutschen Kunden und verstehe die lokalen Marktanforderungen, DSGVO-Compliance, deutsche Webstandards und SEO-Strategien speziell für den deutschen Markt. Ich spreche fließend Deutsch und bin mit deutschen Geschäftspraktiken vertraut."
     },
     "question6": {
-      "q": "Können Sie Unternehmen in Chile bei der Webentwicklung helfen?",
-      "a": "Ja! Als spanischer Muttersprachler biete ich umfassende Webentwicklungs- und SEO-Dienstleistungen für chilenische Unternehmen. Ich verstehe die lokale Marktdynamik, das chilenische Verbraucherverhalten und kann Ihre Website für chilenische Suchmaschinen und lokales SEO optimieren."
+      "q": "Kannst du Unternehmen in Chile bei der Webentwicklung helfen?",
+      "a": "Ja! Als spanischer Muttersprachler biete ich umfassende Webentwicklungs- und SEO-Dienstleistungen für chilenische Unternehmen. Ich verstehe die lokale Marktdynamik, das chilenische Verbraucherverhalten und kann deine Website für chilenische Suchmaschinen und lokales SEO optimieren."
     },
     "question7": {
-      "q": "Was macht React und Next.js zu guten Wahlmöglichkeiten für mein Projekt?",
-      "a": "React und Next.js sind branchenführende Technologien, die exzellente Performance, SEO-Fähigkeiten und Skalierbarkeit bieten. Next.js bietet serverseitiges Rendering, automatische Optimierung und eingebaute SEO-Features, die Ihre Website schneller und suchmaschinenfreundlicher machen. Diese Technologien sorgen auch dafür, dass Ihr Projekt modern, wartbar und zukunftssicher ist."
+      "q": "Was macht React und Next.js zu guten Wahlmöglichkeiten für dein Projekt?",
+      "a": "React und Next.js sind branchenführende Technologien, die exzellente Performance, SEO-Fähigkeiten und Skalierbarkeit bieten. Next.js bietet serverseitiges Rendering, automatische Optimierung und eingebaute SEO-Features, die deine Website schneller und suchmaschinenfreundlicher machen. Diese Technologien sorgen auch dafür, dass dein Projekt modern, wartbar und zukunftssicher ist."
     },
     "question8": {
-      "q": "Arbeiten Sie remote oder vor Ort?",
+      "q": "Arbeitest du remote oder vor Ort?",
       "a": "Ich arbeite hauptsächlich remote, was es mir ermöglicht, Kunden weltweit zu bedienen und gleichzeitig die Kosten wettbewerbsfähig zu halten. Ich verwende moderne Kollaborationstools wie Slack, Zoom und Projektmanagement-Plattformen, um nahtlose Kommunikation zu gewährleisten. Für Kunden in Deutschland kann ich bei Bedarf Vor-Ort-Termine arrangieren."
     },
     "question9": {
-      "q": "Wie sind Ihre typischen Projektkosten und Preisstruktur?",
-      "a": "Meine Preise variieren je nach Projektkomplexität, Zeitplan und Anforderungen. Ich biete wettbewerbsfähige Preise für Webentwicklung (50-80€/Stunde), mobile App-Entwicklung (60-90€/Stunde) und SEO-Dienstleistungen (40-60€/Stunde). Ich biete auch Festpreise für klar definierte Projekte. Kontaktieren Sie mich für ein personalisiertes Angebot."
+      "q": "Wie sind deine typischen Projektkosten und Preisstruktur?",
+      "a": "Meine Preise variieren je nach Projektkomplexität, Zeitplan und Anforderungen. Ich biete wettbewerbsfähige Preise für Webentwicklung (50-80€/Stunde), mobile App-Entwicklung (60-90€/Stunde) und SEO-Dienstleistungen (40-60€/Stunde). Ich biete auch Festpreise für klar definierte Projekte. Kontaktiere mich für ein personalisiertes Angebot."
     },
     "question10": {
       "q": "Wie lange dauert ein typisches Webentwicklungsprojekt?",
-      "a": "Projektzeitpläne variieren je nach Komplexität. Eine einfache Portfolio-Website dauert 1-2 Wochen, eine Unternehmenswebsite mit CMS dauert 2-4 Wochen, und komplexe Webanwendungen können 6-12 Wochen dauern. Mobile Apps benötigen typischerweise 4-8 Wochen. Ich stelle detaillierte Zeitpläne während der Projektplanungsphase zur Verfügung."
+      "a": "Projektzeitpläne variieren je nach Komplexität. Eine einfache Portfolio-Website dauert 1-2 Wochen, eine Unternehmenswebsite mit CMS dauert 2-4 Wochen, und komplexe Webanwendungen können 6-12 Wochen dauern. Mobile Apps benötigen typischerweise 4-8 Wochen. Ich stelle dir detaillierte Zeitpläne während der Projektplanungsphase zur Verfügung."
     },
     "question11": {
       "q": "Was kostet SEO für kleine Unternehmen?",
@@ -193,25 +193,25 @@
     },
     "question12": {
       "q": "Wie lange dauert es, bis SEO-Ergebnisse sichtbar werden?",
-      "a": "SEO ist eine langfristige Investition. Erste Verbesserungen sehen Sie typischerweise nach 2-3 Monaten, mit signifikanten Ergebnissen nach 4-6 Monaten konsistenter Optimierung. Für lokales SEO in Deutschland können Ergebnisse schneller auftreten (6-12 Wochen) aufgrund geringerer Konkurrenz. Ich erstelle monatliche Berichte zur Fortschrittsverfolgung und Strategieanpassung."
+      "a": "SEO ist eine langfristige Investition. Erste Verbesserungen siehst du typischerweise nach 2-3 Monaten, mit signifikanten Ergebnissen nach 4-6 Monaten konsistenter Optimierung. Für lokales SEO in Deutschland können Ergebnisse schneller auftreten (6-12 Wochen) aufgrund geringerer Konkurrenz. Ich erstelle monatliche Berichte zur Fortschrittsverfolgung und Strategieanpassung."
     },
     "question13": {
-      "q": "Was ist lokales SEO und warum braucht mein Unternehmen das?",
-      "a": "Lokales SEO hilft Ihrem Unternehmen, in lokalen Suchergebnissen zu erscheinen, wenn Kunden nach Dienstleistungen 'in der Nähe' oder an bestimmten Orten wie 'Webentwickler Berlin' suchen. Es ist entscheidend für kleine Unternehmen, da 80% der lokalen Suchen zu Conversions führen. Ich optimiere Ihr Google Business-Profil, lokale Einträge und implementiere standortbasierte Keywords für erhöhte lokale Sichtbarkeit."
+      "q": "Was ist lokales SEO und warum braucht dein Unternehmen das?",
+      "a": "Lokales SEO hilft deinem Unternehmen, in lokalen Suchergebnissen zu erscheinen, wenn Kunden nach Dienstleistungen 'in der Nähe' oder an bestimmten Orten wie 'Webentwickler Berlin' suchen. Es ist entscheidend für kleine Unternehmen, da 80% der lokalen Suchen zu Conversions führen. Ich optimiere dein Google Business-Profil, lokale Einträge und implementiere standortbasierte Keywords für erhöhte lokale Sichtbarkeit."
     },
     "question14": {
-      "q": "Was kostet die Entwicklung einer mobilen App für mein kleines Unternehmen?",
+      "q": "Was kostet die Entwicklung einer mobilen App für dein kleines Unternehmen?",
       "a": "Mobile App-Entwicklungskosten hängen von Komplexität und Features ab. Eine einfache Business-App mit Grundfunktionen kostet 3.000-6.000€, während komplexere Apps mit erweiterten Funktionen 8.000-15.000€ kosten. Mit React Native kann ich iOS- und Android-Versionen gleichzeitig erstellen, was Kosten um 30-40% im Vergleich zur nativen Entwicklung reduziert."
     },
     "question15": {
-      "q": "Brauche ich sowohl iOS- als auch Android-Apps für mein Unternehmen?",
-      "a": "Das hängt von Ihrer Zielgruppe und Ihrem Budget ab. In Deutschland hat Android ~65% Marktanteil, iOS ~35%. Ich empfehle, mit beiden Plattformen über React Native für Kosteneffizienz zu beginnen, oder sich zuerst auf Android zu konzentrieren, wenn das Budget begrenzt ist."
+      "q": "Brauchst du sowohl iOS- als auch Android-Apps für dein Unternehmen?",
+      "a": "Das hängt von deiner Zielgruppe und deinem Budget ab. In Deutschland hat Android ~65% Marktanteil, iOS ~35%. Ich empfehle, mit beiden Plattformen über React Native für Kosteneffizienz zu beginnen, oder dich zuerst auf Android zu konzentrieren, wenn das Budget begrenzt ist."
     },
     "question16": {
-      "q": "Können Sie meine bestehende Website in eine mobile App umwandeln?",
-      "a": "Ja! Ich kann Progressive Web Apps (PWAs) erstellen, die wie native Apps funktionieren, oder hybride mobile Apps entwickeln, die Ihren bestehenden Web-Content integrieren. PWAs sind kosteneffektiv (1.500-3.500€) und funktionieren auf allen Geräten, während hybride Apps (2.500-5.000€) bessere App-Store-Präsenz und native Features bieten."
+      "q": "Kannst du meine bestehende Website in eine mobile App umwandeln?",
+      "a": "Ja! Ich kann Progressive Web Apps (PWAs) erstellen, die wie native Apps funktionieren, oder hybride mobile Apps entwickeln, die deinen bestehenden Web-Content integrieren. PWAs sind kosteneffektiv (1.500-3.500€) und funktionieren auf allen Geräten, während hybride Apps (2.500-5.000€) bessere App-Store-Präsenz und native Features bieten."
     },
-    "contactCta": "Haben Sie noch Fragen? Ich bin hier, um zu helfen!",
+    "contactCta": "Hast du noch Fragen? Ich bin hier, um zu helfen!",
     "contactButton": "Kontakt aufnehmen"
   },
   "ToastMessages": {
