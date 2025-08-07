@@ -80,8 +80,6 @@ Disallow: /private/
 
 # Enhanced sitemap configuration
 Sitemap: https://www.rio-frances.com/sitemap.xml
-Sitemap: https://www.rio-frances.com/de/sitemap.xml
-Sitemap: https://www.rio-frances.com/es/sitemap.xml
 
 # Host directive for canonical domain
 Host: https://www.rio-frances.com
