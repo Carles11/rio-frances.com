@@ -1,0 +1,14 @@
+{
+  "webDevHourly": "50-80€/Stunde",
+  "mobileDevHourly": "60-90€/Stunde",
+  "seoHourly": "40-60€/Stunde",
+  "seoBasic": "ab 300€/Monat",
+  "seoFull": "500-800€/Monat",
+  "seoCompetitive": "1000€+/Monat",
+  "seoAudit": "200-400€",
+  "mobileAppSimple": "3.500-6.000€",
+  "mobileAppComplex": "8.000-15.000€",
+  "pwa": "1.500-3.500€",
+  "hybridApp": "3.500-6.000€",
+  "reactNativeSaving": "25-35%"
+}

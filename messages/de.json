@@ -181,7 +181,7 @@
     },
     "question9": {
       "q": "Wie sind deine typischen Projektkosten und Preisstruktur?",
-      "a": "Meine Preise variieren je nach Projektkomplexität, Zeitplan und Anforderungen. Ich biete wettbewerbsfähige Preise für Webentwicklung (50-80€/Stunde), mobile App-Entwicklung (60-90€/Stunde) und SEO-Dienstleistungen (40-60€/Stunde). Ich biete auch Festpreise für klar definierte Projekte. Kontaktiere mich für ein personalisiertes Angebot."
+      "a": "Meine Preise variieren je nach Projektkomplexität, Zeitplan und Anforderungen. Ich biete wettbewerbsfähige Preise für Webentwicklung ({webDevHourly}), mobile App-Entwicklung ({mobileDevHourly}) und SEO-Dienstleistungen ({seoHourly}). Ich biete auch Festpreise für klar definierte Projekte. Kontaktiere mich für ein personalisiertes Angebot."
     },
     "question10": {
       "q": "Wie lange dauert ein typisches Webentwicklungsprojekt?",
@@ -189,7 +189,7 @@
     },
     "question11": {
       "q": "Was kostet SEO für kleine Unternehmen?",
-      "a": "SEO-Kosten für kleine Unternehmen variieren je nach Bedarf und Zielen. Ich biete flexible SEO-Pakete ab 300€/Monat für grundlegendes lokales SEO, 500-800€/Monat für umfassendes SEO einschließlich Content-Optimierung und 1000€+/Monat für umkämpfte Branchen. Ich biete auch einmalige SEO-Audits (200-400€) und projektbasierte SEO-Optimierung für spezifische Bedürfnisse."
+      "a": "SEO-Kosten für kleine Unternehmen variieren je nach Bedarf und Zielen. Ich biete flexible SEO-Pakete ab {seoBasic} für grundlegendes lokales SEO, {seoFull} für umfassendes SEO einschließlich Content-Optimierung und {seoCompetitive} für umkämpfte Branchen. Ich biete auch einmalige SEO-Audits ({seoAudit}) und projektbasierte SEO-Optimierung für spezifische Bedürfnisse."
     },
     "question12": {
       "q": "Wie lange dauert es, bis SEO-Ergebnisse sichtbar werden?",
@@ -201,7 +201,7 @@
     },
     "question14": {
       "q": "Was kostet die Entwicklung einer mobilen App für dein kleines Unternehmen?",
-      "a": "Mobile App-Entwicklungskosten hängen von Komplexität und Features ab. Eine einfache Business-App mit Grundfunktionen kostet 3.000-6.000€, während komplexere Apps mit erweiterten Funktionen 8.000-15.000€ kosten. Mit React Native kann ich iOS- und Android-Versionen gleichzeitig erstellen, was Kosten um 30-40% im Vergleich zur nativen Entwicklung reduziert."
+      "a": "Mobile App-Entwicklungskosten hängen von Komplexität und Features ab. Eine einfache Business-App mit Grundfunktionen kostet {mobileAppSimple}, während komplexere Apps mit erweiterten Funktionen {mobileAppComplex} kosten. Mit React Native kann ich iOS- und Android-Versionen gleichzeitig erstellen, was Kosten um {reactNativeSaving} im Vergleich zur nativen Entwicklung reduziert."
     },
     "question15": {
       "q": "Brauchst du sowohl iOS- als auch Android-Apps für dein Unternehmen?",
@@ -209,7 +209,7 @@
     },
     "question16": {
       "q": "Kannst du meine bestehende Website in eine mobile App umwandeln?",
-      "a": "Ja! Ich kann Progressive Web Apps (PWAs) erstellen, die wie native Apps funktionieren, oder hybride mobile Apps entwickeln, die deinen bestehenden Web-Content integrieren. PWAs sind kosteneffektiv (1.500-3.500€) und funktionieren auf allen Geräten, während hybride Apps (2.500-5.000€) bessere App-Store-Präsenz und native Features bieten."
+      "a": "Ja! Ich kann Progressive Web Apps (PWAs) erstellen, die wie native Apps funktionieren, oder hybride mobile Apps entwickeln, die deinen bestehenden Web-Content integrieren. PWAs sind kosteneffektiv ({pwa}) und funktionieren auf allen Geräten, während hybride Apps ({hybridApp}) bessere App-Store-Präsenz und native Features bieten."
     },
     "contactCta": "Hast du noch Fragen? Ich bin hier, um zu helfen!",
     "contactButton": "Kontakt aufnehmen"

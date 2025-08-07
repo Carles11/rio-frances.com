@@ -182,7 +182,7 @@
     },
     "question9": {
       "q": "What are your typical project costs and pricing structure?",
-      "a": "My pricing varies based on project complexity, timeline, and requirements. I offer competitive rates for web development (€50-80/hour), mobile app development (€60-90/hour), and SEO services (€40-60/hour). I also provide fixed-price quotes for well-defined projects. Contact me for a personalized quote."
+      "a": "My pricing varies based on project complexity, timeline, and requirements. I offer competitive rates for web development (${webDevHourly}), mobile app development (${mobileDevHourly}), and SEO services (${seoHourly}). I also provide fixed-price quotes for well-defined projects. Contact me for a personalized quote."
     },
     "question10": {
       "q": "How long does a typical web development project take?",
@@ -190,7 +190,7 @@
     },
     "question11": {
       "q": "How much does SEO cost for small businesses?",
-      "a": "SEO costs for small businesses vary based on your needs and goals. I offer flexible SEO packages starting from €300/month for basic local SEO, €500-800/month for comprehensive SEO including content optimization, and €1000+/month for competitive industries. I also provide one-time SEO audits (€200-400) and project-based SEO optimization for specific needs."
+      "a": "SEO costs for small businesses vary based on your needs and goals. I offer flexible SEO packages starting from ${seoBasic} for basic local SEO, ${seoFull} for comprehensive SEO including content optimization, and ${seoCompetitive} for competitive industries. I also provide one-time SEO audits (${seoAudit}) and project-based SEO optimization for specific needs."
     },
     "question12": {
       "q": "How long does it take to see SEO results?",
@@ -202,7 +202,7 @@
     },
     "question14": {
       "q": "How much does it cost to develop a mobile app for my small business?",
-      "a": "Mobile app development costs depend on complexity and features. A simple business app with basic features costs €3,000-6,000, while more complex apps with advanced functionality range from €8,000-15,000. Using React Native allows me to create both iOS and Android versions simultaneously, reducing costs by 30-40% compared to native development."
+      "a": "Mobile app development costs depend on complexity and features. A simple business app with basic features costs ${mobileAppSimple}, while more complex apps with advanced functionality range from ${mobileAppComplex}. Using React Native allows me to create both iOS and Android versions simultaneously, reducing costs by ${reactNativeSaving} compared to native development."
     },
     "question15": {
       "q": "Do I need both iOS and Android apps for my business?",
@@ -210,7 +210,7 @@
     },
     "question16": {
       "q": "Can you convert my existing website into a mobile app?",
-      "a": "Yes! I can create Progressive Web Apps (PWAs) that work like native apps or develop hybrid mobile apps that integrate your existing web content. PWAs are cost-effective (€1,500-3,500) and work on all devices, while hybrid apps (€2,500-5,000) offer better app store presence and native features."
+      "a": "Yes! I can create Progressive Web Apps (PWAs) that work like native apps or develop hybrid mobile apps that integrate your existing web content. PWAs are cost-effective (${pwa}) and work on all devices, while hybrid apps (${hybridApp}) offer better app store presence and native features."
     },
     "contactCta": "Still have questions? I'm here to help!",
     "contactButton": "Get in Touch"

@@ -1,5 +1,7 @@
 import { useTranslations } from 'next-intl'
 
+import pricing from '@/constants/pricing'
+
 export const useFaqData = () => {
   const t = useTranslations('FAQ')
 
@@ -55,7 +57,11 @@ export const useFaqData = () => {
     {
       id: 9,
       question: t('question9.q'),
-      answer: t('question9.a'),
+      answer: t('question9.a', {
+        webDevHourly: pricing.webDevHourly,
+        mobileDevHourly: pricing.mobileDevHourly,
+        seoHourly: pricing.seoHourly,
+      }),
       category: 'pricing',
     },
     {
@@ -67,7 +73,12 @@ export const useFaqData = () => {
     {
       id: 11,
       question: t('question11.q'),
-      answer: t('question11.a'),
+      answer: t('question11.a', {
+        seoBasic: pricing.seoBasic,
+        seoFull: pricing.seoFull,
+        seoCompetitive: pricing.seoCompetitive,
+        seoAudit: pricing.seoAudit,
+      }),
       category: 'seo',
     },
     {
@@ -85,7 +96,11 @@ export const useFaqData = () => {
     {
       id: 14,
       question: t('question14.q'),
-      answer: t('question14.a'),
+      answer: t('question14.a', {
+        mobileAppSimple: pricing.mobileAppSimple,
+        mobileAppComplex: pricing.mobileAppComplex,
+        reactNativeSaving: pricing.reactNativeSaving,
+      }),
       category: 'mobile',
     },
     {
@@ -97,7 +112,10 @@ export const useFaqData = () => {
     {
       id: 16,
       question: t('question16.q'),
-      answer: t('question16.a'),
+      answer: t('question16.a', {
+        pwa: pricing.pwa,
+        hybridApp: pricing.hybridApp,
+      }),
       category: 'mobile',
     },
   ]
