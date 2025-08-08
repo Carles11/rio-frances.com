@@ -1,11 +1,13 @@
-# Optimized for German and Chilean markets
+
+# Optimized for worldwide SEO and AIO (AI Optimization)
 # Solo developer SEO strategy - Carles del Río Francés
 
 User-agent: *
 Allow: /
 Crawl-delay: 1
 
-# Priority crawling for main search engines
+
+# Priority crawling for main search engines (Worldwide)
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 0.5
@@ -13,21 +15,6 @@ Crawl-delay: 0.5
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
-
-# German market search engines
-User-agent: Yandex
-Allow: /
-Crawl-delay: 2
-
-# Chilean/Latin American search engines
-User-agent: Yahoo
-Allow: /
-Crawl-delay: 1
-
-# Mobile-first indexing optimization
-User-agent: Googlebot-Mobile
-Allow: /
-Crawl-delay: 0.5
 
 # AI/LLM crawlers (AIO optimization)
 User-agent: GPTBot
@@ -37,6 +24,27 @@ Crawl-delay: 2
 User-agent: ChatGPT-User
 Allow: /
 Crawl-delay: 2
+
+# Other major search engines (Worldwide)
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+
+User-agent: Yahoo
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Googlebot-Mobile
+Allow: /
+Crawl-delay: 0.5
 
 User-agent: CCBot
 Allow: /

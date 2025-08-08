@@ -11,12 +11,12 @@ export default function JsonLdSchema({ locale }: JsonLdProps) {
         name: 'Carles del Río Francés',
         jobTitle: 'Web & Mobile Developer | SEO Specialist',
         description:
-          'Freelance web and mobile developer specializing in React, Next.js, React Native and SEO optimization. Serving clients in Germany and Chile.',
+          'Freelance web and mobile developer specializing in React, Next.js, React Native and SEO optimization. Serving clients worldwide.',
         address: {
           addressLocality: 'Remote',
-          addressCountry: 'DE',
+          addressCountry: 'XX',
         },
-        workLocation: ['Germany', 'Chile', 'Remote'],
+        workLocation: ['Worldwide', 'Remote'],
         expertise: [
           'Web Development',
           'Mobile App Development',
@@ -33,12 +33,12 @@ export default function JsonLdSchema({ locale }: JsonLdProps) {
         name: 'Carles del Río Francés',
         jobTitle: 'Web- & Mobile-Entwickler | SEO-Spezialist',
         description:
-          'Freiberuflicher Web- und Mobile-Entwickler spezialisiert auf React, Next.js, React Native und SEO-Optimierung. Betreut Kunden in Deutschland und Chile.',
+          'Freiberuflicher Web- und Mobile-Entwickler spezialisiert auf React, Next.js, React Native und SEO-Optimierung. Betreut Kunden in Deutschland.',
         address: {
           addressLocality: 'Remote',
           addressCountry: 'DE',
         },
-        workLocation: ['Deutschland', 'Chile', 'Remote'],
+        workLocation: ['Deutschland', 'Remote'],
         expertise: [
           'Webentwicklung',
           'Mobile App Entwicklung',
@@ -55,12 +55,12 @@ export default function JsonLdSchema({ locale }: JsonLdProps) {
         name: 'Carles del Río Francés',
         jobTitle: 'Desarrollador Web y Móvil | Especialista SEO',
         description:
-          'Desarrollador freelance web y móvil especializado en React, Next.js, React Native y optimización SEO. Atiendo clientes en Alemania y Chile.',
+          'Desarrollador freelance web y móvil especializado en React, Next.js, React Native y optimización SEO. Atiendo clientes en Chile.',
         address: {
           addressLocality: 'Remoto',
           addressCountry: 'CL',
         },
-        workLocation: ['Alemania', 'Chile', 'Remoto'],
+        workLocation: ['Chile', 'Remoto'],
         expertise: [
           'Desarrollo Web',
           'Desarrollo de Apps Móviles',

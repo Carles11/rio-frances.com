@@ -1,7 +1,20 @@
 import { useTranslations } from 'next-intl'
 
-export const useNavLinks = () => {
+export const useNavLinks = (locale: string) => {
   const t = useTranslations('Navbar')
+
+  let seoTitle = 'SEO'
+  let seoPath = '/seo'
+  if (locale === 'es') {
+    seoTitle = 'SEO Chile'
+    seoPath = '/es/seo'
+  } else if (locale === 'de') {
+    seoTitle = 'SEO Deutschland'
+    seoPath = '/de/seo'
+  } else if (locale === 'en') {
+    seoTitle = 'SEO Worldwide'
+    seoPath = '/seo'
+  }
 
   return [
     {
@@ -15,6 +28,10 @@ export const useNavLinks = () => {
     {
       title: t('contact'),
       path: '#contact',
+    },
+    {
+      title: seoTitle,
+      path: seoPath,
     },
   ]
 }

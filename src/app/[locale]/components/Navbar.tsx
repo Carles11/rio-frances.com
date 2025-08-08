@@ -7,11 +7,17 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
 import MenuOverlay from './MenuOverlay'
 import Image from 'next/image'
 import { useNavLinks } from '@/config/navLinks'
+import { useParams } from 'next/navigation'
 import LocaleSwitcher from '@/app/[locale]/components/LocaleSwitcher'
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
-  const navLinks = useNavLinks()
+  let locale = 'en'
+  try {
+    // @ts-ignore
+    locale = useParams()?.locale || 'en'
+  } catch {}
+  const navLinks = useNavLinks(locale)
 
   return (
     <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90">

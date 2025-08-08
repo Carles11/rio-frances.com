@@ -1,0 +1,25 @@
+{
+  "AboutSection": {
+    "description": "I am a front-end developer specializing in web and mobile applications with expertise in SEO and AIO optimization for worldwide clients. I am passionate about creating interactive and responsive experiences using technologies such as JavaScript, React, NextJS, React Native with Expo, Node.js, Express, Jira and Confluence, HTML, CSS and Git. I provide comprehensive SEO/AIO optimization services to enhance website visibility and performance for businesses around the globe. I am always looking for new opportunities to expand my knowledge and skills."
+  },
+  "FAQ": {
+    "question3": {
+      "a": "SEO optimization improves your website's visibility in search engines like Google, Bing, and other major search engines worldwide. I implement technical SEO, content optimization, global and local SEO strategies, and AIO (Artificial Intelligence Optimization) to help you rank higher and attract more qualified traffic to your business."
+    },
+    "question5": {
+      "a": "Absolutely! I work with clients worldwide and understand the requirements of different markets, including GDPR compliance, web standards, and SEO strategies for global audiences. I am experienced in collaborating with international clients and adapting to their business practices."
+    },
+    "question6": {
+      "a": "Yes! I provide comprehensive web development and SEO services to businesses worldwide. I understand the dynamics of different markets and can optimize your website for global and local search engines as needed."
+    },
+    "question12": {
+      "a": "SEO is a long-term investment. You typically start seeing initial improvements in 2-3 months, with significant results appearing after 4-6 months of consistent optimization. For local SEO in less competitive markets, results can be faster (6-12 weeks). I provide monthly reports to track progress and adjust strategies as needed."
+    },
+    "question15": {
+      "a": "It depends on your target audience and budget. Worldwide, Android and iOS have varying market shares depending on the region. I recommend starting with both platforms using React Native for cost-effectiveness, or focusing on the platform most popular with your target audience if budget is limited."
+    },
+    "question8": {
+      "a": "I primarily work remotely, which allows me to serve clients globally while keeping costs competitive. I use modern collaboration tools like Slack, Zoom, and project management platforms to ensure seamless communication. On-site meetings can be arranged for local clients if necessary."
+    }
+  }
+}
