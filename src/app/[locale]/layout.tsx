@@ -280,10 +280,26 @@ export default async function RootLayout({
 
   // Providing all messages to the client
   const messages = await getMessages()
+  // Hreflang alternate links for SEO
+  const hreflangs = [
+    { href: 'https://www.rio-frances.com', hreflang: 'en' },
+    { href: 'https://www.rio-frances.com/de', hreflang: 'de' },
+    { href: 'https://www.rio-frances.com/es', hreflang: 'es' },
+    { href: 'https://www.rio-frances.com', hreflang: 'x-default' },
+  ]
+
   return (
     <html lang={locale}>
       <head>
         <JsonLdSchema locale={locale} />
+        {hreflangs.map((link) => (
+          <link
+            key={link.hreflang}
+            rel="alternate"
+            hrefLang={link.hreflang}
+            href={link.href}
+          />
+        ))}
       </head>
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
