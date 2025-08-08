@@ -12,11 +12,18 @@ import LocaleSwitcher from '@/app/[locale]/components/LocaleSwitcher'
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
-  let locale = 'en'
-  try {
-    // @ts-ignore
-    locale = useParams()?.locale || 'en'
-  } catch {}
+  // Always call useParams unconditionally to comply with React Hooks rules
+  const params = useParams()
+  let locale: string = 'en'
+  if (params && typeof params.locale === 'string') {
+    locale = params.locale
+  } else if (
+    params &&
+    Array.isArray(params.locale) &&
+    params.locale.length > 0
+  ) {
+    locale = params.locale[0]
+  }
   const navLinks = useNavLinks(locale)
 
   return (
