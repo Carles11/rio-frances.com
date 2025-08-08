@@ -13,7 +13,7 @@ export const useNavLinks = (locale: string) => {
     seoPath = '/de/seo'
   } else if (locale === 'en') {
     seoTitle = 'SEO Worldwide'
-    seoPath = '/seo'
+    seoPath = '/en/seo'
   }
 
   return [

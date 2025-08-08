@@ -228,5 +228,29 @@
     "privateRepoMessage": "Dieses Repository ist privat. {title}",
     "retryErrorMessage": "Bitte versuche es erneut: (Fehler: ${text})",
     "emailSentMessage": "{text}! Deine E-Mail wurde erfolgreich gesendet."
+  },
+  "SEO": {
+    "whyTitle": "Warum SEO & AIO für Ihr Unternehmen entscheidend sind",
+    "whyText": "SEO (Suchmaschinenoptimierung) ist die Grundlage für Online-Sichtbarkeit. Ob Sie Kunden in Deutschland, Chile oder weltweit ansprechen: Wer bei Google & Co. oben steht, gewinnt mehr Besucher, Anfragen und Umsatz. AIO (Artificial Intelligence Optimization) geht noch weiter – Ihre Website wird für KI-gestützte Suche (z.B. ChatGPT, Google SGE, Bing Copilot) und Sprachassistenten optimiert.",
+    "issuesTitle": "Typische SEO- & AIO-Probleme",
+    "issue1": "Technische SEO-Mängel (langsames Laden, fehlende Meta-Tags, defekte Links)",
+    "issue2": "Schwaches lokales SEO (Ihre Seite erscheint nicht bei regionalen Suchen)",
+    "issue3": "Niedrige Core Web Vitals (schlechte Mobile-Experience, lange Ladezeiten)",
+    "issue4": "Inhalte nicht für Nutzerintention oder KI/LLM-Suche optimiert",
+    "issue5": "Fehlende strukturierte Daten (FAQ, Organisation, Service, etc.)",
+    "issue6": "Keine Nutzung von KI-Tools für Content, Analyse oder Automatisierung",
+    "techniquesTitle": "Moderne SEO- & AIO-Methoden",
+    "technique1": "Technische SEO-Audits & Optimierung (Core Web Vitals, Mobile-First, HTTPS)",
+    "technique2": "Lokales SEO für Deutschland, Chile oder international (Google Business, lokale Einträge, hreflang)",
+    "technique3": "Content-Optimierung für Suchmaschinen & KI (klar, strukturiert, FAQ-basiert)",
+    "technique4": "Implementierung strukturierter Daten (JSON-LD für FAQ, Person, Service, etc.)",
+    "technique5": "KI-gestützte Keyword-Recherche & Wettbewerbsanalyse",
+    "technique6": "Optimierung für KI/LLM-Suche (antwortorientiert, semantisches Markup, aktuelle Infos)",
+    "whyChooseTitle": "Warum meine SEO- & AIO-Dienstleistungen?",
+    "whyChoose1": "Erfolgreiche Projekte in Deutschland, Chile & international",
+    "whyChoose2": "Solo-Entwickler: direkte Kommunikation, schnelle Umsetzung, individuelle Strategie",
+    "whyChoose3": "Modernes AIO: Ihre Website ist bereit für die Zukunft der Suche",
+    "contactCta": "Hast du noch Fragen? Ich bin hier, um zu helfen!",
+    "contactButton": "Kontakt aufnehmen"
   }
 }

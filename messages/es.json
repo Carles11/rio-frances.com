@@ -228,5 +228,29 @@
     "privateRepoMessage": "Este repositorio es privado. {title}",
     "retryErrorMessage": "Por favor, inténtelo de nuevo: (error: ${text})",
     "emailSentMessage": "{text}! Su correo electrónico ha sido enviado con éxito."
+  },
+  "SEO": {
+    "whyTitle": "¿Por qué el SEO y el AIO son clave para tu negocio?",
+    "whyText": "El SEO (optimización para motores de búsqueda) es la base de la visibilidad online. Ya sea que busques clientes en Chile, Alemania o a nivel global, aparecer en los primeros lugares de Google y otros buscadores significa más visitas, contactos y ventas. El AIO (Optimización para Inteligencia Artificial) es el siguiente paso: tu web lista para búsquedas con IA (ChatGPT, Google SGE, Bing Copilot) y asistentes de voz.",
+    "issuesTitle": "Problemas comunes de SEO y AIO",
+    "issue1": "SEO técnico deficiente (sitio lento, meta tags faltantes, enlaces rotos)",
+    "issue2": "SEO local débil (no apareces en búsquedas de tu región)",
+    "issue3": "Baja puntuación en Core Web Vitals (mala experiencia móvil, carga lenta)",
+    "issue4": "Contenido no optimizado para la intención del usuario o búsqueda por IA/LLM",
+    "issue5": "Faltan datos estructurados (FAQ, Organización, Servicios, etc.)",
+    "issue6": "No aprovechar herramientas de IA para contenido, análisis o automatización",
+    "techniquesTitle": "Técnicas modernas de SEO y AIO",
+    "technique1": "Auditoría y corrección técnica (Core Web Vitals, mobile-first, HTTPS)",
+    "technique2": "SEO local para Chile, Alemania o internacional (Google Business, citas locales, hreflang)",
+    "technique3": "Optimización de contenido para buscadores y para IA (claro, estructurado, con FAQs)",
+    "technique4": "Implementación de datos estructurados (JSON-LD para FAQ, Persona, Servicios, etc.)",
+    "technique5": "Investigación de palabras clave y análisis de competencia con IA",
+    "technique6": "Optimización para búsqueda por IA/LLM (respuestas claras, marcado semántico, info actualizada)",
+    "whyChooseTitle": "¿Por qué elegir mis servicios de SEO y AIO?",
+    "whyChoose1": "Resultados comprobados en Chile, Alemania e internacional",
+    "whyChoose2": "Desarrollador independiente: comunicación directa, entrega rápida, estrategia personalizada",
+    "whyChoose3": "AIO de vanguardia: tu web lista para el futuro de las búsquedas",
+    "contactCta": "¿Aún tienes preguntas? ¡Estoy aquí para ayudar!",
+    "contactButton": "Ponte en Contacto"
   }
 }

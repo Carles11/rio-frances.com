@@ -229,5 +229,29 @@
     "privateRepoMessage": "This repository is private. {title}",
     "retryErrorMessage": "Please try again: (error: ${text})",
     "emailSentMessage": "{text}! Your email has been sent successfully."
+  },
+  "SEO": {
+    "whyTitle": "Why SEO & AIO Matter for Your Business",
+    "whyText": "SEO (Search Engine Optimization) is the foundation of online visibility. Whether you target Chile, Germany, or a global audience, ranking high on Google and other search engines means more traffic, leads, and sales. AIO (Artificial Intelligence Optimization) is the next evolution—optimizing your site for AI-powered search (like ChatGPT, Google SGE, Bing Copilot) and voice assistants.",
+    "issuesTitle": "Common SEO & AIO Issues",
+    "issue1": "Poor technical SEO (slow site, missing meta tags, broken links)",
+    "issue2": "Weak local SEO (not showing up for searches in your region)",
+    "issue3": "Low Core Web Vitals scores (bad mobile experience, slow load)",
+    "issue4": "Content not optimized for user intent or AI/LLM search",
+    "issue5": "Missing structured data (FAQ, Organization, Service, etc.)",
+    "issue6": "Not leveraging AI tools for content, analytics, or automation",
+    "techniquesTitle": "Modern SEO & AIO Techniques",
+    "technique1": "Technical SEO audits and fixes (Core Web Vitals, mobile-first, HTTPS)",
+    "technique2": "Local SEO for Chile, Germany, or worldwide (Google Business, local citations, hreflang)",
+    "technique3": "Content optimization for both search engines and AI (clear, structured, FAQ-rich)",
+    "technique4": "Implementing structured data (JSON-LD for FAQ, Person, Service, etc.)",
+    "technique5": "AI-powered keyword research and competitor analysis",
+    "technique6": "Optimizing for AI/LLM search (answer-focused, semantic markup, up-to-date info)",
+    "whyChooseTitle": "Why Choose My SEO & AIO Services?",
+    "whyChoose1": "Proven results in Chile, Germany, and international markets",
+    "whyChoose2": "Solo developer: direct communication, fast delivery, tailored strategy",
+    "whyChoose3": "Cutting-edge AIO: your site is ready for the future of search",
+    "contactCta": "Still have questions? I'm here to help!",
+    "contactButton": "Get in Touch"
   }
 }

@@ -11,6 +11,21 @@
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://www.rio-frances.com/de/seo</loc>
+  <lastmod>2025-08-07T00:20:25+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.rio-frances.com/es/seo</loc>
+  <lastmod>2025-08-07T00:20:25+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.rio-frances.com/en/seo</loc>
+  <lastmod>2025-08-07T00:20:25+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
   <loc>https://www.rio-frances.com/de</loc>
   <lastmod>2025-08-07T00:20:25+00:00</lastmod>
   <priority>1.00</priority>
