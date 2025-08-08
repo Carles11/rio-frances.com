@@ -174,20 +174,20 @@ export async function generateMetadata({
   // Next.js provides process.env.NEXT_PUBLIC_VERCEL_URL or use window.location in client, but in server context, get from params or context
   // We'll use a workaround: expect a pathname param (as in generateMetadata context)
   // Fallback to '' if not available
-  let pathname = ''
-  if (typeof window !== 'undefined') {
-    pathname = window.location.pathname
-  } else if (typeof global !== 'undefined' && (global as any).pathname) {
-    pathname = (global as any).pathname
-  }
-  // Remove trailing slash for canonical
+  // Use request URL if available, otherwise fallback to base
   let canonicalUrl = baseUrl
-  if (locale === 'en') {
-    canonicalUrl = `${baseUrl}${pathname}`
+  if (typeof window !== 'undefined') {
+    // On client, use window.location.pathname
+    const pathname = window.location.pathname
+    canonicalUrl =
+      locale === 'en'
+        ? `${baseUrl}${pathname}`
+        : `${baseUrl}/${locale}${pathname.replace(/^\/[a-z]{2}/, '')}`
+    canonicalUrl = canonicalUrl.replace(/\/$/, '')
   } else {
-    canonicalUrl = `${baseUrl}/${locale}${pathname.replace(/^\/[a-z]{2}/, '')}`
+    // On server, fallback to baseUrl or use params if available (for static export)
+    canonicalUrl = locale === 'en' ? baseUrl : `${baseUrl}/${locale}`
   }
-  canonicalUrl = canonicalUrl.replace(/\/$/, '')
 
   return {
     title: {
