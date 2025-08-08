@@ -18,6 +18,7 @@ export interface MenuOverlayProps {
 export interface NavLinkProps {
   href: string
   title: string
+  className?: string
 }
 
 export interface ProjectCardProps {

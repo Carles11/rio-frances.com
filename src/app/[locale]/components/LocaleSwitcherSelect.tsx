@@ -26,12 +26,15 @@ export default function LocaleSwitcherSelect({ defaultValue }: Props) {
 
   return (
     <div>
-      <label htmlFor="locale-switcher" />
+      <label htmlFor="locale-switcher" className="sr-only">
+        Language
+      </label>
       <select
         id="locale-switcher"
         defaultValue={defaultValue}
         onChange={onSelectChange}
         className="w-11 h-8 rounded-sm bg-transparent focus:ring-0 focus:ring-offset-0 custom-select"
+        aria-label="Select language"
       >
         {routing.locales.map((locale) => (
           <option key={locale} value={locale}>
