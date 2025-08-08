@@ -5,7 +5,10 @@ const Footer = () => {
   const t = useTranslations('Footer')
   const currentYear = new Date().getFullYear()
   return (
-    <footer className="w-full py-11 mx-auto border border-[#33353F] bottom-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90 text-xs text-white">
+    <footer
+      className="w-full py-11 mx-auto border border-[#33353F] bottom-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90 text-xs text-white"
+      aria-label="Site footer"
+    >
       <div className="container mx-auto text-center space-y-1">
         <p>
           © {currentYear}{' '}
