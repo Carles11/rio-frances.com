@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import '../../styles/customStyles.css';
+/* @import '../../styles/customStyles.css'; */
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -62,4 +62,29 @@ body {
 .custom-link:hover {
   text-decoration: underline;
   color: #af4c1e; /* equivalent to hover:text-blue-400 in Tailwind CSS */
+}
+
+/* Custom styles for text truncation and project cards */
+
+.text-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.project-description {
+  position: relative;
+}
+
+.project-description.expanded {
+  display: block;
+  -webkit-line-clamp: unset;
+  line-clamp: unset;
+  overflow: visible;
+}
+
+.read-more-gradient {
+  background: linear-gradient(to right, transparent, #181818 70%);
 }
