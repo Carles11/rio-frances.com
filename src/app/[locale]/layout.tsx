@@ -297,6 +297,7 @@ export default async function RootLayout({
 
   // Providing all messages to the client
   const messages = await getMessages()
+
   // Hreflang alternate links for SEO
   const hreflangs = [
     { href: 'https://www.rio-frances.com', hreflang: 'en' },
@@ -305,10 +306,16 @@ export default async function RootLayout({
     { href: 'https://www.rio-frances.com', hreflang: 'x-default' },
   ]
 
+  // Canonical URL dynamisch bestimmen
+  const baseUrl = 'https://www.rio-frances.com'
+  const canonicalUrl = locale === 'en' ? baseUrl : `${baseUrl}/${locale}`
+
   return (
     <html lang={locale}>
       <head>
         <JsonLdSchema locale={locale} />
+        {/* Canonical Link für SEO */}
+        <link rel="canonical" href={canonicalUrl} />
         {hreflangs.map((link) => (
           <link
             key={link.hreflang}
