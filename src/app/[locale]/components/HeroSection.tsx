@@ -73,15 +73,31 @@ const HeroSection = () => {
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
-            <Image
-              src="/images/carles-in-ids.webp"
-              alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
-              height={300}
-              priority
-              fetchPriority="high"
-            />
+            <picture>
+              <source
+                srcSet="/images/carles-in-ids_250.webp"
+                media="(max-width: 640px)"
+                width="250"
+                height="250"
+                type="image/webp"
+              />
+              <source
+                srcSet="/images/carles-in-ids_364.webp"
+                media="(min-width: 641px)"
+                width="364"
+                height="364"
+                type="image/webp"
+              />
+              <img
+                src="/images/carles-in-ids_364.webp"
+                alt="hero image"
+                className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                width="364"
+                height="364"
+                loading="eager"
+                style={{ display: 'block', maxWidth: '100%', height: 'auto' }}
+              />
+            </picture>
           </div>
         </motion.div>
       </div>
