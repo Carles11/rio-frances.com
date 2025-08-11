@@ -23,7 +23,7 @@ const useEmailSend = () => {
   const emailSend = (data: EmailData, resetForm: () => void): void => {
     // using EMAILJS rio-frances - SMTP service
     const serviceID = 'service_p4gfq9k'
-    const templateID = 'template_rvgqsba'
+    const templateID = 'template_2q9uy0m'
     init('user_5HJvI2zi5tRGkdRn7cAvt')
     // console.log({ serviceID, templateID, data })
 
