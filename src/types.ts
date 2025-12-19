@@ -27,7 +27,7 @@ export interface ProjectCardProps {
   title: string
   description: string
   gitUrl: string
-  previewUrl: string
+  previewUrl: string | { ios: string; android: string } // Updated to support both formats
 }
 
 export interface ProjectTagProps {

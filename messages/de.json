@@ -46,6 +46,10 @@
       "title": "Grafikdesign-Portfolio-Website",
       "description": "Eine Portfolio-Website, die meine Grafikdesign-Projekte zeigt. Erstellt mit React, Express und CSS3."
     },
+    "mosaicMobileApp": {
+      "title": "Mosaic.photography Mobile-Anwendung",
+      "description": "Native Mobile-Anwendung zum Durchsuchen und Herunterladen gemeinfreier Fotografie. Erstellt mit React Native, Expo, TypeScript, Supabase und AWS S3 mit CloudFront CDN. Verfügbar für iOS und Android."
+    },
     "myPensionWebApp": {
       "title": "myPension Web-App",
       "description": "Eine Webanwendung und ein Kundenportal zur Verwaltung von Rentenplänen. Erstellt mit NodeJS, React, Express, Sass, Bootstrap und MySQL."

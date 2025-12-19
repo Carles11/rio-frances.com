@@ -46,6 +46,10 @@
       "title": "Portafolio de Diseño Gráfico",
       "description": "Un sitio web como portafolio que muestra mis proyectos de diseño gráfico. Construido con React, Express y CSS3."
     },
+    "mosaicMobileApp": {
+      "title": "Aplicación móvil Mosaic.photography",
+      "description": "Aplicación móvil nativa para explorar y descargar fotografía de dominio público. Construida con React Native, Expo, TypeScript, Supabase y AWS S3 con CloudFront CDN. Disponible para iOS y Android."
+    },
     "myPensionWebApp": {
       "title": "Aplicación Web de MyPension",
       "description": "Una aplicación web y portal de clientes para gestionar planes de pensiones. Construido con NodeJS, React, Express, Sass, Bootstrap y MySQL."

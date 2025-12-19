@@ -15,7 +15,7 @@ export const useProjectsData = () => {
     },
     {
       id: 1,
-      title: t('graphicDesignPortfolioWebsite.title'),
+      title: t('graphicDesignPortfolioWebsite. title'),
       description: t('graphicDesignPortfolioWebsite.description'),
       image: '/images/projects/crix-design-low.webp',
       tag: ['all', 'web'],
@@ -27,7 +27,7 @@ export const useProjectsData = () => {
       title: t('mosaic.title'),
       description: t('mosaic.description'),
       image: '/images/projects/mosaic-mockup.webp',
-      tag: ['all', 'web', 'mobile'],
+      tag: ['all', 'web'],
       gitUrl: 'https://github.com/Carles11/mosaic-photography',
       previewUrl: 'https://www.mosaic.photography',
     },
@@ -42,6 +42,19 @@ export const useProjectsData = () => {
     },
     {
       id: 4,
+      title: t('mosaicMobileApp.title'),
+      description: t('mosaicMobileApp.description'),
+      image: '/images/projects/mosaic-ios-app.webp',
+      tag: ['all', 'mobile'],
+      gitUrl: 'https://github.com/Carles11/mosaic-photography-app',
+      previewUrl: {
+        ios: 'https://apps.apple.com/us/app/mosaic-photography-gallery/id6755329136',
+        android:
+          'https://play.google.com/store/apps/details?id=com. carlos_delrio.mosaicphotographyapp',
+      },
+    },
+    {
+      id: 5,
       title: t('myPensionMobileApp.title'),
       description: t('myPensionMobileApp.description'),
       image: '/images/projects/mypension-de-low.webp',
@@ -51,7 +64,7 @@ export const useProjectsData = () => {
         'https://play.google.com/store/apps/details?id=de.mypension.mypension',
     },
     {
-      id: 5,
+      id: 6,
       title: t('remoryoMobileApp.title'),
       description: t('remoryoMobileApp.description'),
       image: '/images/projects/remoryo-low.webp',
@@ -60,7 +73,7 @@ export const useProjectsData = () => {
       previewUrl: 'https://www.remoryo.com/download-app',
     },
     {
-      id: 6,
+      id: 7,
       title: t('leoLeo.title'),
       description: t('leoLeo.description'),
       image: '/images/projects/leo-leo-low.webp',
@@ -69,7 +82,7 @@ export const useProjectsData = () => {
       previewUrl: 'https://www.leo-leo-hessen.com',
     },
     {
-      id: 7,
+      id: 8,
       title: t('theCirculArtStatistics.title'),
       description: t('theCirculArtStatistics.description'),
       image: '/images/projects/circulart-stats-low.webp',
@@ -78,17 +91,17 @@ export const useProjectsData = () => {
       previewUrl: 'https://thecirculart-statistics.vercel.app/',
     },
     {
-      id: 8,
+      id: 9,
       title: t('sweetTextAIGenerator.title'),
       description: t('sweetTextAIGenerator.description'),
-      image: '/images/projects/sweet-text-low.webp',
+      image: '/images/projects/sweet-text-low. webp',
       tag: ['all', 'web'],
       gitUrl: 'https://github.com/Carles11/sweet-text.ai',
       previewUrl: 'https://sweet-text-ai.vercel.app/',
     },
     {
-      id: 9,
-      title: t('foodOrderingAndDeliveryApp.title'),
+      id: 10,
+      title: t('foodOrderingAndDeliveryApp. title'),
       description: t('foodOrderingAndDeliveryApp.description'),
       image: '/images/projects/food-ordering-app-low.webp',
       tag: ['all', 'mobile'],
@@ -96,7 +109,7 @@ export const useProjectsData = () => {
       previewUrl: 'https://www.youtube.com/watch?v=rIYzLhkG9TA&t=26793s',
     },
     {
-      id: 10,
+      id: 11,
       title: t('apiRESTful.title'),
       description: t('apiRESTful.description'),
       image: '/images/projects/api-img.webp',
