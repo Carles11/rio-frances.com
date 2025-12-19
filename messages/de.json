@@ -133,7 +133,7 @@
   },
   "Footer": {
     "design": "Entworfen und entwickelt von Carles del Río Francés",
-    "a": "SEO-Optimierung verbessert die Sichtbarkeit deiner Website in Suchmaschinen wie Google, Bing und lokalen Suchmaschinen in Deutschland. Ich implementiere technisches SEO, Content-Optimierung, lokale SEO-Strategien und AIO (Artificial Intelligence Optimization), um dir zu helfen, höher zu ranken und mehr qualifizierten Traffic zu deinem Unternehmen in Deutschland zu bringen.",
+    "check-crix": "Besuche meine Projekte als Grafikdesigner auf",
     "rights": "Alle Rechte vorbehalten.",
     "no-cookies": "Diese Website verwendet keine Cookies oder ähnliche Tracking-Technologien."
   },
@@ -141,7 +141,7 @@
     "title": "Häufig gestellte Fragen",
     "subtitle": "Hier findest du Antworten auf häufige Fragen zu Webentwicklung, mobilen Apps und SEO-Dienstleistungen.",
     "categories": {
-      "a": "Ich biete umfassende Webentwicklungs- und SEO-Dienstleistungen für Unternehmen in Deutschland. Ich verstehe die lokalen Marktanforderungen und kann deine Website für deutsche Suchmaschinen und lokales SEO optimieren.",
+      "all": "Alle",
       "services": "Dienstleistungen",
       "mobile": "Mobile",
       "seo": "SEO",
