@@ -52,11 +52,11 @@
       "description": "Native mobile application for browsing and downloading public domain photography.  Built with React Native, Expo, TypeScript, Supabase, and AWS S3 with CloudFront CDN.  Available for iOS and Android."
     },
     "myPensionWebApp": {
-      "title": "My Pension Web App",
+      "title": "MyPension Web App",
       "description": "A web application and client portal for managing pension plans. Built with NodeJS, React, Redux, Express, Sass, Bootstrap and MySQL."
     },
     "myPensionMobileApp": {
-      "title": "My Pension Mobile App",
+      "title": "MyPension Mobile App",
       "description": "A mobile app for managing pension plans in Germany. NodeJS, React Native, Expo, Sass, MySQL."
     },
     "remoryoMobileApp": {

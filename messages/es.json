@@ -55,7 +55,7 @@
       "description": "Una aplicación web y portal de clientes para gestionar planes de pensiones. Construido con NodeJS, React, Express, Sass, Bootstrap y MySQL."
     },
     "myPensionMobileApp": {
-      "title": "Aplicación Móvil de Mi Pensión",
+      "title": "Aplicación Móvil de MyPension",
       "description": "Una aplicación móvil para gestionar planes de pensiones en Alemania. NodeJS, React Native, Expo, Sass, MySQL."
     },
     "remoryoMobileApp": {
