@@ -1,5 +1,5 @@
 export const getExperienceYears = () => {
-  const myCodingStartingDate = new Date(2019, 3) // April 2019
+  const myCodingStartingDate = new Date(2018, 3) // April 2018
   const currentDate = new Date()
 
   const yearsOfExperience: number =

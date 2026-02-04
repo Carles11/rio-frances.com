@@ -121,7 +121,7 @@ export default function JsonLdSchema({ locale }: JsonLdProps) {
           occupationLocation: data.workLocation,
           skills: data.expertise,
           educationRequirements: 'Full Stack JavaScript Development',
-          experienceRequirements: '5+ years in web and mobile development',
+          experienceRequirements: '7+ years in web and mobile development',
           responsibilities: [
             'Web application development',
             'Mobile app development',
