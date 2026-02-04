@@ -7,7 +7,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
 import MenuOverlay from './MenuOverlay'
 import Image from 'next/image'
 import { useNavLinks } from '@/config/navLinks'
-import { useParams } from 'next/navigation'
+import { useParams, usePathname } from 'next/navigation'
 import LocaleSwitcher from '@/app/[locale]/components/LocaleSwitcher'
 
 const Navbar = () => {
@@ -25,6 +25,23 @@ const Navbar = () => {
     locale = params.locale[0]
   }
   const navLinks = useNavLinks(locale)
+  const pathname = usePathname() || ''
+  const isSeoPage = pathname.includes('/seo')
+
+  const resolvedLinks = navLinks.map((link) => {
+    let path = link.path
+    if (isSeoPage) {
+      // If link is an in-page anchor, point to the locale root + anchor
+      if (path.startsWith('#')) {
+        path = `/${locale}${path}`
+      }
+      // If link points to a localized SEO page (e.g. /de/seo), redirect to locale root instead
+      if (path.endsWith('/seo')) {
+        path = path.replace(/\/seo$/, '')
+      }
+    }
+    return { ...link, path }
+  })
 
   return (
     <nav
@@ -63,7 +80,7 @@ const Navbar = () => {
           </div>
           <div className="menu hidden md:block md:w-auto" id="navbar">
             <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
-              {navLinks.map((link, index) => (
+              {resolvedLinks.map((link, index) => (
                 <li key={index}>
                   <NavLink
                     href={link.path}
@@ -79,7 +96,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
+      {navbarOpen ? <MenuOverlay links={resolvedLinks} /> : null}
     </nav>
   )
 }
