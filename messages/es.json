@@ -109,8 +109,9 @@
       "expo": "Expo",
       "mongo": "MongoDB",
       "supabase": "Supabase",
-      "seo": "Optimización SEO",
-      "aio": "Optimización AIO"
+      "seo": "Optimización de Motores de Búsqueda (SEO)",
+      "aio": "Optimización de Inteligencia Artificial (AIO)",
+      "aso": "Optimización de Tienda de Aplicaciones (ASO)"
     },
     "education": {
       "title": "Formación",

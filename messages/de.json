@@ -109,8 +109,9 @@
       "expo": "Expo",
       "mongo": "MongoDB",
       "supabase": "Supabase",
-      "seo": "SEO-Optimierung",
-      "aio": "AIO-Optimierung"
+      "seo": "Suchmaschinen-Optimierung (SEO)",
+      "aio": "Künstliche Intelligenz-Optimierung (AIO)",
+      "aso": "App Store-Optimierung (ASO)"
     },
     "education": {
       "title": "Bildung",

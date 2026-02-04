@@ -20,6 +20,7 @@ export const useTabData = (): TabData[] => {
           <li>{t('skills.supabase')}</li>
           <li>{t('skills.seo')}</li>
           <li>{t('skills.aio')}</li>
+          <li>{t('skills.aso')}</li>
         </ul>
       ),
     },
