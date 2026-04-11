@@ -39,6 +39,10 @@
   },
 
   "Projects": {
+    "webDevelopmentWeddWebWebsite": {
+      "title": "WeddWeb Website Builder",
+      "description": "A specialized platform for building event and wedding websites. Developed with Next.js, Supabase, TailwindCSS, and Stripe."
+    },
     "webDevelopmentPortfolioWebsite": {
       "title": "Web Development Portfolio Website",
       "description": "A portfolio website highlighting my web and mobile development projects. Built with NextJS, React, TypeScript and TailwindCSS."

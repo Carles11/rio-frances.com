@@ -5,6 +5,15 @@ export const useProjectsData = () => {
 
   return [
     {
+      id: -1,
+      title: t('webDevelopmentWeddWebWebsite.title'),
+      description: t('webDevelopmentWeddWebWebsite.description'),
+      image: '/images/projects/weddweb-low.webp',
+      tag: ['all', 'web'],
+      gitUrl: '/',
+      previewUrl: 'https://www.weddweb.com',
+    },
+    {
       id: 0,
       title: t('webDevelopmentPortfolioWebsite.title'),
       description: t('webDevelopmentPortfolioWebsite.description'),

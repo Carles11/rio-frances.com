@@ -14,7 +14,7 @@ const ProjectsSection = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true })
   const projectsData = useProjectsData()
-
+  console.log({ projectsData })
   const handleTagChange = (newTag: string) => {
     setTag(newTag)
   }

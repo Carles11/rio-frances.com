@@ -38,8 +38,12 @@
     "mobile": "Mobil"
   },
   "Projects": {
+    "webDevelopmentWeddWebWebsite": {
+      "title": "WeddWeb Website-Baukasten",
+      "description": "Eine spezialisierte Plattform zum Erstellen von Veranstaltungs- und Hochzeits-Websites. Entwickelt mit Next.js, Supabase, TailwindCSS und Stripe."
+    },
     "webDevelopmentPortfolioWebsite": {
-      "title": "Webentwicklungs-Portfolio-Website",
+      "title": "Webentwicklungs Portfolio Website",
       "description": "Eine Portfolio-Website, die meine Web- und Mobile-Entwicklungsprojekte hervorhebt. Erstellt mit NextJS, React, TypeScript und TailwindCSS."
     },
     "graphicDesignPortfolioWebsite": {

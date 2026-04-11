@@ -38,6 +38,10 @@
     "mobile": "Móvil"
   },
   "Projects": {
+    "webDevelopmentWeddWebWebsite": {
+      "title": "Constructor de Sitios WeddWeb",
+      "description": "Una plataforma especializada para la creación de sitios web de eventos y bodas. Desarrollada con Next.js, Supabase, TailwindCSS y Stripe."
+    },
     "webDevelopmentPortfolioWebsite": {
       "title": "Portafolio de Desarrollo Web",
       "description": "Un sitio web como  portafolio que destaca mis proyectos de desarrollo web y móvil. Construido con NextJS, React, TypeScript y TailwindCSS."
