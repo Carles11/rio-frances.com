@@ -39,6 +39,10 @@
   },
 
   "Projects": {
+    "saasOfSaassWebsite": {
+      "title": "SaaSofSaaSs Website Builder",
+      "description": "A multi-tenant SaaS platform for building multilingual business websites with AI-powered translations, custom domains and Stripe billing. Developed with Next.js, Neon PostgreSQL, Drizzle ORM and TailwindCSS."
+    },
     "webDevelopmentWeddWebWebsite": {
       "title": "WeddWeb Website Builder",
       "description": "A specialized platform for building event and wedding websites. Developed with Next.js, Supabase, TailwindCSS, and Stripe."

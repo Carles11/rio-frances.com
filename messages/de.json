@@ -38,6 +38,10 @@
     "mobile": "Mobil"
   },
   "Projects": {
+    "saasOfSaassWebsite": {
+      "title": "SaaSofSaaSs Website-Baukasten",
+      "description": "Eine Multi-Tenant-SaaS-Plattform zum Erstellen mehrsprachiger Unternehmens-Websites mit KI-gestützten Übersetzungen, eigenen Domains und Stripe-Abrechnung. Entwickelt mit Next.js, Neon PostgreSQL, Drizzle ORM und TailwindCSS."
+    },
     "webDevelopmentWeddWebWebsite": {
       "title": "WeddWeb Website-Baukasten",
       "description": "Eine spezialisierte Plattform zum Erstellen von Veranstaltungs- und Hochzeits-Websites. Entwickelt mit Next.js, Supabase, TailwindCSS und Stripe."

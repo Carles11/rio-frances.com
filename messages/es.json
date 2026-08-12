@@ -38,6 +38,10 @@
     "mobile": "Móvil"
   },
   "Projects": {
+    "saasOfSaassWebsite": {
+      "title": "Constructor de Sitios SaaSofSaaSs",
+      "description": "Una plataforma SaaS multi-tenant para crear sitios web de empresa multilingües con traducciones impulsadas por IA, dominios personalizados y facturación con Stripe. Desarrollada con Next.js, Neon PostgreSQL, Drizzle ORM y TailwindCSS."
+    },
     "webDevelopmentWeddWebWebsite": {
       "title": "Constructor de Sitios WeddWeb",
       "description": "Una plataforma especializada para la creación de sitios web de eventos y bodas. Desarrollada con Next.js, Supabase, TailwindCSS y Stripe."

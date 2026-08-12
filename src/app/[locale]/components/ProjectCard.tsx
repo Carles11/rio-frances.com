@@ -8,7 +8,6 @@ import Swal from 'sweetalert2'
 import { useTranslations } from 'next-intl'
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
-  ident,
   imgUrl,
   title,
   description,
@@ -78,7 +77,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     }
   }, [imgUrl])
 
-  const privateRepos = ident === 3 || ident === 5 || ident === 6 || -1
+  const privateRepos = gitUrl === '/'
   return (
     <div>
       <div

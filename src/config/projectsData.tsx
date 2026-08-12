@@ -5,6 +5,15 @@ export const useProjectsData = () => {
 
   return [
     {
+      id: -2,
+      title: t('saasOfSaassWebsite.title'),
+      description: t('saasOfSaassWebsite.description'),
+      image: '/images/projects/soss-home.webp',
+      tag: ['all', 'web'],
+      gitUrl: '/',
+      previewUrl: 'https://www.saasofsaass.com',
+    },
+    {
       id: -1,
       title: t('webDevelopmentWeddWebWebsite.title'),
       description: t('webDevelopmentWeddWebWebsite.description'),
