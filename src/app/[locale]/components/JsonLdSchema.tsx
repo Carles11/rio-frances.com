@@ -9,7 +9,7 @@ export default function JsonLdSchema({ locale }: JsonLdProps) {
     const baseData = {
       en: {
         name: 'Carles del Río Francés',
-        jobTitle: 'Web & Mobile Developer | SEO Specialist',
+        jobTitle: 'Senior React Native & Frontend Developer | UI/UX | SEO/GEO',
         description:
           'Freelance web and mobile developer specializing in React, Next.js, React Native and SEO optimization. Serving clients worldwide.',
         address: {
@@ -31,7 +31,7 @@ export default function JsonLdSchema({ locale }: JsonLdProps) {
       },
       de: {
         name: 'Carles del Río Francés',
-        jobTitle: 'Web- & Mobile-Entwickler | SEO-Spezialist',
+        jobTitle: 'Senior React Native & Frontend Developer | UI/UX | SEO/GEO',
         description:
           'Freiberuflicher Web- und Mobile-Entwickler spezialisiert auf React, Next.js, React Native und SEO-Optimierung. Betreut Kunden in Deutschland.',
         address: {
@@ -53,7 +53,7 @@ export default function JsonLdSchema({ locale }: JsonLdProps) {
       },
       es: {
         name: 'Carles del Río Francés',
-        jobTitle: 'Desarrollador Web y Móvil | Especialista SEO',
+        jobTitle: 'Desarrollador Senior React Native y Frontend | UI/UX | SEO/GEO',
         description:
           'Desarrollador freelance web y móvil especializado en React, Next.js, React Native y optimización SEO. Atiendo clientes en Chile.',
         address: {
