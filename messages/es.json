@@ -78,10 +78,6 @@
       "title": "Las Estadísticas de CirculArt",
       "description": "Una aplicación web atractiva diseñada para visualizar estadísticas de clientes para theCirculArt, una empresa que proporciona soluciones innovadoras de economía circular para empresas del sector financiero."
     },
-    "sweetTextAIGenerator": {
-      "title": "Generador de Textos con IA",
-      "description": "Una aplicación web diseñada para generar mensajes de texto usando IA. React, Express, CSS3 y chat-GPT3."
-    },
     "foodOrderingAndDeliveryApp": {
       "title": "Aplicación de Pedido y Entrega de Comida",
       "description": "Una aplicación móvil diseñada para pedir y entregar comida, basada en el tutorial de NotJustDev por Vadim Savin. React Native, Expo, Supabase, stripe, notificaciones push."

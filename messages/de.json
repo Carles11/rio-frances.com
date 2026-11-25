@@ -78,10 +78,6 @@
       "title": "The CirculArt Statistics",
       "description": "Eine ansprechende Webanwendung zur Visualisierung von Kundenstatistiken für theCirculArt, ein Unternehmen, das innovative Lösungen für die Kreislaufwirtschaft für Unternehmen im Finanzsektor anbietet."
     },
-    "sweetTextAIGenerator": {
-      "title": "Sweet Text AI Generator",
-      "description": "Eine Webanwendung zur Erstellung von Textnachrichten mit KI. React, Express, CSS3 und chat-GPT3."
-    },
     "foodOrderingAndDeliveryApp": {
       "title": "Essensbestell- und Liefer-App",
       "description": "Eine mobile App zum Bestellen und Liefern von Essen, basierend auf dem NotJustDev-Tutorial von Vadim Savin. React Native, Expo, Supabase, Stripe, Push-Benachrichtigungen."

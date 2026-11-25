@@ -107,14 +107,6 @@ export const useProjectsData = () => {
       tag: ['all', 'web'],
       gitUrl: 'https://github.com/Carles11/circulCard',
     },
-    {
-      id: 9,
-      title: t('sweetTextAIGenerator.title'),
-      description: t('sweetTextAIGenerator.description'),
-      image: '/images/projects/sweet-text-low.webp',
-      tag: ['all', 'web'],
-      gitUrl: 'https://github.com/Carles11/sweet-text.ai',
-    },
     // {
     //   id: 10,
     //   title: t('foodOrderingAndDeliveryApp.title'),
