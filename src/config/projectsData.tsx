@@ -28,7 +28,7 @@ export const useProjectsData = () => {
       description: t('webDevelopmentPortfolioWebsite.description'),
       image: '/images/projects/rio-frances-web.webp',
       tag: ['all', 'web'],
-      gitUrl: 'https://github.com/Carles11/cdrio-dev',
+      gitUrl: 'https://github.com/Carles11/rio-frances.com',
       previewUrl: 'https://www.rio-frances.com',
     },
     {
@@ -106,7 +106,6 @@ export const useProjectsData = () => {
       image: '/images/projects/circulart-stats-low.webp',
       tag: ['all', 'web'],
       gitUrl: 'https://github.com/Carles11/circulCard',
-      previewUrl: 'https://thecirculart-statistics.vercel.app/',
     },
     {
       id: 9,
@@ -115,7 +114,6 @@ export const useProjectsData = () => {
       image: '/images/projects/sweet-text-low.webp',
       tag: ['all', 'web'],
       gitUrl: 'https://github.com/Carles11/sweet-text.ai',
-      previewUrl: 'https://sweet-text-ai.vercel.app/',
     },
     // {
     //   id: 10,
